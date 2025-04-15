@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Espinafre
+  - Inimigo
+  - Projetil
+  - Abacaxi
   layers:
   - Default
   - TransparentFX

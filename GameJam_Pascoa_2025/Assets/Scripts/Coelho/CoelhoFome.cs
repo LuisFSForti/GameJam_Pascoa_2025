@@ -6,10 +6,22 @@ public class CoelhoFome : MonoBehaviour
     [Header("Comida")]
     [SerializeField] private float _fome, _perdaFome, _limiteInferior, _limiteSuperior;
     [SerializeField] private char _estado;
+    /*
+     Estados:
+    'F' - faminto
+    'N' - normal
+    'G' - gordo
+    'B' - bombado
+
+    Como só 'G' e 'B' dividem uma mesma faixa de fome, então _estado só precisa guardar estes valores
+     */
 
     [Header("UI")]
     [SerializeField] private float _tamanhoMax;
     [SerializeField] private RawImage _progresso;
+
+    [Header("Controle")]
+    [SerializeField] CoelhoVida _controladorVida;
 
     //Códigos externos podem acessar a fome, mas não podem alterá-lo
     public float Fome
@@ -23,13 +35,19 @@ public class CoelhoFome : MonoBehaviour
         _fome += valor;
 
         if (_fome < 0)
+        {
             _fome = 0;
+            //Mata o jogador de fome
+            _controladorVida.MudarVida(-1000000);
+        }
         else if (_fome > 1)
             _fome = 1;
 
+        //Para qual estado ele está indo
         _estado = tipo;
     }
 
+    //Retorna o estado do coelho
     public char GetEstado()
     {
         if (_fome <= _limiteInferior)
@@ -43,15 +61,18 @@ public class CoelhoFome : MonoBehaviour
 
     private void Start()
     {
+        //Deixa ele com o máximo possível de fome estando na forma normal
         _fome = _limiteSuperior;
+        //Estado neutro, não importa o valor aqui pois ele será alterado
         _estado = 'N';
     }
 
-    //A cada frame
     void Update()
     {
-        _fome -=_perdaFome * Time.deltaTime;
+        //Perde fome, mantendo o estado atual
+        Comer(-_perdaFome * Time.deltaTime, _estado);
 
+        //Atualiza a barra de fome na UI
         _progresso.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, _fome * _tamanhoMax);
     }
 }

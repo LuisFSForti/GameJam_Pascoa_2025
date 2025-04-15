@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using System.ComponentModel;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 public class CoelhoMovimentacao : MonoBehaviour
@@ -26,33 +28,123 @@ public class CoelhoMovimentacao : MonoBehaviour
     [SerializeField] CoelhoFome _controladorFome;
     [SerializeField] private float _tempoComer;
 
+    [Header("Vida")]
+    [SerializeField] CoelhoVida _controladorVida;
+    [SerializeField] private float _tempoVida, _forcaImpacto;
+
     [Header("Controle")]
     [SerializeField] private Rigidbody2D _corpo;
     [SerializeField] private float _estaParalizado;
     [SerializeField] private LayerMask _layersChao, _layersDestrutiveis;
+    [SerializeField] private List<string> _tagCausadorasDeDano, _tagsCausadorasDeDanoIndestrutivies; //Não existe uma classe pré-pronta pra tratar as tags
     [SerializeField] private bool _estaNoChao;
 
+    //Quando colidir com um objeto com collider do tipo trigger
+    /*
+     In Unity, a trigger is a specialized collider that detects when other colliders enter, 
+     exit, or stay within its space, without actually causing a physical collision. This 
+     allows you to create events and logic based on an object's proximity to the trigger 
+     area, rather than a direct physical impact. 
+     */
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //Se for uma espinafre
         if (collision.gameObject.tag == "Espinafre")
         {
+            //Coloca a fome no máximo e define que está ficando bombado
             _controladorFome.Comer(1f, 'B');
 
+            //Para o jogador e o paraliza para comer
             _corpo.linearVelocity = Vector2.zero;
             _estaParalizado = _tempoComer;
 
+            //Destroi a espinafre
             Destroy(collision.gameObject);
         }
     }
 
+    //Quando colidir com um objeto com collider
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //Se for algum objeto que cause dano
+        if(_tagCausadorasDeDano.Contains(collision.collider.tag))
+        {
+            //Se não for indestrutível
+            if(!_tagsCausadorasDeDanoIndestrutivies.Contains(collision.collider.tag))
+            {
+                //Dependendo do estado do jogador
+                switch (_controladorFome.GetEstado())
+                {
+                    //Se faminto
+                    case 'F':
+                        //Destrói o container do objeto
+                        Destroy(collision.collider.gameObject.transform.parent.gameObject);
+
+                        //Come ele
+                        _controladorFome.Comer(0.2f, 'G');
+
+                        //Paraliza o jogador por um curto intervalo
+                        _estaParalizado = _tempoComer / 3;
+                        _corpo.linearVelocity = Vector2.zero;
+
+                        //Sai da função
+                        return;
+
+                    //Se for o gordo ou o bombado
+                    case 'G':
+                    case 'B':
+                        //Destrói o container do objeto
+                        Destroy(collision.collider.gameObject.transform.parent.gameObject);
+
+                        //Sai da função
+                        return;
+
+                    //Se estiver no estado normal, então sai do switch
+                    default:
+                        break;
+                }
+            }
+            //Se for indestrutível
+            else
+            {
+                //Se estiver bombado
+                if(_controladorFome.GetEstado() == 'B')
+                {
+                    //Destrói o container do objeto
+                    Destroy(collision.collider.gameObject.transform.parent.gameObject);
+
+                    //Sai da função
+                    return;
+                }
+            }
+
+            //Se não destruiu o objeto
+
+            //Perde vida
+            _controladorVida.MudarVida(-1);
+
+            //Paraliza o jogador
+            _estaParalizado = _tempoVida;
+            _corpo.linearVelocity = Vector2.zero;
+
+            //Empurra ele na direção oposta à fonte de dano
+            _corpo.AddForce(new Vector2((collision.collider.transform.position.x > transform.position.x ? -1 : 1) * _forcaImpacto, 1), ForceMode2D.Impulse);
+
+            //Sai da função
+            return;
+        }
+
+        //Se não for um objeto que causa dnao
+
+        //Verifica se é uma estrutura destrutível
         //https://discussions.unity.com/t/check-if-layer-is-in-layermask/16007
         if ((1<<collision.collider.gameObject.layer | _layersDestrutiveis) == _layersDestrutiveis)
         {
+            //Se for, verifica se está gordo ou bombado
             char estado = _controladorFome.GetEstado();
             if(estado == 'G' || estado == 'B')
             {
+                //Se sim, desacelera o jogador e destrói a estrutura
                 _corpo.linearVelocity /= _desaceleracaoDestruicao;
                 Destroy(collision.collider.gameObject);
             }
@@ -64,9 +156,9 @@ public class CoelhoMovimentacao : MonoBehaviour
         _estaParalizado = 0f;
     }
 
-    //A cada frame
     void Update()
     {
+        //Atualiza o sprite e o tamanho de acordo com o estado
         Sprite img = _imgNormal;
         switch (_controladorFome.GetEstado())
         {
@@ -86,11 +178,9 @@ public class CoelhoMovimentacao : MonoBehaviour
                 break;
 
             default:
-            case 'N':
                 transform.localScale = Vector3.one;
                 break;
         }
-
         _controladorSprite.sprite = img;
 
         //Se o jogador estiver sob um stun (quando ele recebe dano, por exemplo)
@@ -109,7 +199,7 @@ public class CoelhoMovimentacao : MonoBehaviour
         _estaNoChao = Physics2D.BoxCast(transform.position, new Vector2(transform.localScale.x, _distChao), 0, -transform.up, transform.localScale.y / 2, _layersChao);
 
 
-        //=======================================================               Comer               ======================================================
+        //===============================               Comer               ====================================
 
         //Se estiver no chão e jogador estiver pedindo pra comer
         if(_estaNoChao && Input.GetKey(KeyCode.C))
@@ -121,11 +211,11 @@ public class CoelhoMovimentacao : MonoBehaviour
             _corpo.linearVelocity = Vector2.zero;
             _estaParalizado = _tempoComer;
 
-            //Termina de analisar os comandos
+            //Sai da função
             return;
         }
 
-        //=======================================================           Movimento               ======================================================
+        //===============================          Movimento               =====================================
 
 
         //Atualiza o tempo no ar
@@ -133,9 +223,10 @@ public class CoelhoMovimentacao : MonoBehaviour
         //Se estiver no ar, aumenta
         _tempoNoAr = (_tempoNoAr + Time.deltaTime) * (_estaNoChao ? 0 : 1);
 
-        //Qual será a força aplicada em Y
+        //Quais serão os valores utilizados
         float forcaY = 0f, forcaPuloAndar = 0f, forcaPuloMax = 0f, velocidade = 0f;
 
+        //Define qual velocidade e força usar de acordo com o estado do jogador
         switch (_controladorFome.GetEstado())
         {
             case 'F':
@@ -157,7 +248,6 @@ public class CoelhoMovimentacao : MonoBehaviour
                 break;
 
             default:
-            case 'N':
                 velocidade = _velocidadeNormal;
                 forcaPuloAndar = _forcaPuloAndarNormal;
                 forcaPuloMax = _forcaPuloMaxNormal;
@@ -165,7 +255,6 @@ public class CoelhoMovimentacao : MonoBehaviour
         }
 
         //Se ele não está no ar a tempo demais sem ter pulado (https://evolvers.com.br/como-criar-coyote-time/#:~:text=Resumo,que%20%C3%A9%20o%20Coyote%20Time)
-        //e se ele já não estiver subindo
         if (_tempoNoAr <= _coyoteTime)
         {
             //Se o jogador apertou espaço
@@ -181,18 +270,20 @@ public class CoelhoMovimentacao : MonoBehaviour
             else if(_estaNoChao)
             {
                 //Usa a velocidade de pulo de andar normal se o jogador estiver andando
-                forcaY = forcaPuloAndar * (Input.GetAxisRaw("Horizontal") != 0 ? 1 : 0);
+                if(Input.GetAxisRaw("Horizontal") != 0)
+                    forcaY = forcaPuloAndar;
             }
         }
 
         //Define qual é a velocidade em X
         _corpo.linearVelocityX = velocidade * Input.GetAxisRaw("Horizontal");
         
-        //Empurra o jogador para cima
+        //Se o jogador estiver fazendo força para cima
         if(forcaY > 0)
         {
             //Zera a velocidade em Y pra sobrescrever com o pulo
             _corpo.linearVelocityY = 0;
+            //Empurra o jogador com a força passada na forma de impulso
             _corpo.AddForceY(forcaY, ForceMode2D.Impulse);
         }
 

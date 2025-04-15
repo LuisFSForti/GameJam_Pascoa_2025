@@ -6,33 +6,50 @@ public class BatataController : MonoBehaviour
     [SerializeField] private float _velocidade;
 
     [Header("Controle")]
-    [SerializeField] private float _distCheck;
     [SerializeField] private Transform _limiteE, _limiteD;
     [SerializeField] private Rigidbody2D _corpo;
 
+    //Quando ele colidir com outro objeto
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        //Se o objeto não estiver muito próximo à base da batata, ou seja, se não for o chão
+        //Então funciona com paredes e outras criaturas
+        if(collision.collider.transform.position.y > transform.position.y - transform.localScale.y/2)
+        {
+            //Inverte a direção do movimento
+            _velocidade *= -1;
+        }
+    }
 
     void Update()
     {
-        float dir = transform.localScale.x >= 0 ? 1 : -1;
-
-        if (dir > 0)
+        //Se estiver indo pra direita
+        if (_velocidade > 0)
         {
+            //Verifica se não passou do limite à direita
             if (transform.position.x >= _limiteD.position.x)
-                dir = -1;
+                //Se sim, inverte a direção
+                _velocidade *= -1;
         }
+        //Se for para a esquerda
         else
         {
+            //Verifica se não passou do limite à esquerda
             if (transform.position.x <= _limiteE.position.x)
-                dir = 1;
+                //Se sim, inverte a direção
+                _velocidade *= -1;
         }
 
-        Debug.Log(Physics2D.Raycast(transform.position, dir * transform.right, _distCheck + Mathf.Abs(transform.localScale.x / 2)).collider);
+        //Se estiver indo para a direita
+        if (_velocidade >= 0)
+            //Orienta encarando a direita
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        //Se for para a esquerda
+        else
+            //Orienta encarando a esquerda
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
 
-        if (Physics2D.Raycast(transform.position, dir * transform.right, _distCheck + Mathf.Abs(transform.localScale.x/2)))
-            dir = transform.localScale.x > 0 ? -1 : 1;
-
-        transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x) * dir, transform.localScale.y, transform.localScale.z);
-
-        _corpo.linearVelocityX = _velocidade * dir;
+        //Define a velocidade de movimento
+        _corpo.linearVelocityX = _velocidade;
     }
 }
