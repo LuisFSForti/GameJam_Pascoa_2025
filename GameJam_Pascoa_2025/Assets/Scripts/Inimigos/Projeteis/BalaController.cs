@@ -26,14 +26,17 @@ public class BalaController : MonoBehaviour
     }
 
 
-    void OnBecomeInvisible(){
+    void OnBecameInvisible(){
         
             Destroy(gameObject);
     }
     // Update is called once per frame
     void Update()
     {
-
+        /*_maxTime -= Time.deltaTime;
+        if (_maxTime<= 0){
+            Destroy(gameObject);
+        }*/
 
     }
 }
