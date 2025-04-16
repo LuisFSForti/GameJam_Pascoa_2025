@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6a545e738ed684f4cbf85d93141b6ada
+guid: 01d6592e3812d8443b02aa38f65ed6af
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6963966953970783383
-    second: explosao_0
+      213: 4645184229749270222
+    second: ofvoid8h_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: explosao_0
+      name: ofvoid8h_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 225
-        height: 225
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96b2309b3f40b5f90800000000000000
-      internalID: -6963966953970783383
+      spriteID: ec6a37a1272077040800000000000000
+      internalID: 4645184229749270222
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      explosao_0: -6963966953970783383
+      ofvoid8h_0: 4645184229749270222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

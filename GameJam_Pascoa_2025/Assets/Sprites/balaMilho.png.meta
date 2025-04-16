@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6a545e738ed684f4cbf85d93141b6ada
+guid: 4783a2798b287fb4dba2df588a8dca8c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6963966953970783383
-    second: explosao_0
+      213: 2772360689838730580
+    second: pczgjc4i_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: explosao_0
+      name: pczgjc4i_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 225
-        height: 225
+        x: 84
+        y: 74
+        width: 202
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96b2309b3f40b5f90800000000000000
-      internalID: -6963966953970783383
+      spriteID: 45d281bdb57697620800000000000000
+      internalID: 2772360689838730580
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      explosao_0: -6963966953970783383
+      pczgjc4i_0: 2772360689838730580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
