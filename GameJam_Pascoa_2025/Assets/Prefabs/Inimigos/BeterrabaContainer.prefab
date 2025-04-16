@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6550090317528119627}
   - component: {fileID: 5138171468589593604}
   - component: {fileID: 149859129360117424}
+  - component: {fileID: 7313161100294946741}
+  - component: {fileID: 565199303002482224}
   m_Layer: 0
   m_Name: Beterraba
   m_TagString: Inimigo
@@ -28,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3424934858101089554}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.09, y: 0.02, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -153,6 +155,62 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.125, y: 1.125}
   m_Direction: 0
+--- !u!114 &7313161100294946741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3424934858101089554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627ed47359f100740a1399f6b961fda3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coelhoPosition: {fileID: 0}
+  _velocidade: 3
+  _distance: 0
+  _maxDistance: 8
+  _tempoPulo: 0
+  _estaPerseguindo: 0
+  _rigidbody2d: {fileID: 5138171468589593604}
+  _tempoExplodir: 0
+--- !u!58 &565199303002482224
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3424934858101089554}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 1.5
 --- !u!1 &7524235493421575293
 GameObject:
   m_ObjectHideFlags: 0
