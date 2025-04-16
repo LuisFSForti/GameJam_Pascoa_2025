@@ -64,18 +64,27 @@ public class CoelhoMovimentacao : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Projetil")
         {
-            //Perde vida
-            _controladorVida.MudarVida(-1);
+            if(_controladorFome.GetEstado() != 'B')
+            {
+                //Perde vida
+                _controladorVida.MudarVida(-1);
 
-            //Paraliza o jogador
-            _estaParalizado = _tempoVida;
-            _corpo.linearVelocity = Vector2.zero;
+                //Paraliza o jogador
+                _estaParalizado = _tempoVida;
+                _corpo.linearVelocity = Vector2.zero;
 
-            //Empurra ele na direção oposta à fonte de dano
-            _corpo.AddForce(new Vector2((collision.gameObject.transform.position.x > transform.position.x ? -1 : 1) * _forcaImpacto, 1), ForceMode2D.Impulse);
+                //Empurra ele na direção oposta à fonte de dano
+                _corpo.AddForce(new Vector2((collision.gameObject.transform.position.x > transform.position.x ? -1 : 1) * _forcaImpacto, 1), ForceMode2D.Impulse);
 
-            //Sai da função
-            return;
+                //Sai da função
+                return;
+            }
+            else
+            {
+                
+                Destroy(collision.gameObject);
+            }
+            
         }
     }
 

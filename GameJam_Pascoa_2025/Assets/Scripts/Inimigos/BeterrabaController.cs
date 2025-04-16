@@ -16,7 +16,6 @@ public class BeterrabaController : MonoBehaviour
     [Header("Explosao")]
     [SerializeField] private GameObject _prefabExplosao;
     [SerializeField] private float _tempoExplodir;
-    [SerializeField] private CoelhoVida _controladorVida;
 
     void Start()
     {
@@ -71,11 +70,11 @@ public class BeterrabaController : MonoBehaviour
         //========================================= Explosao ====================================
 
         //se o tempo de explodir acabar ou chegar perto do player, a baterraba explode
-        if (_tempoExplodir <= 0f && _estaPerseguindo == true || _distance <= 2f)
+        if (_tempoExplodir <= 0f && _estaPerseguindo == true || _distance <= 1.1f)
         {
             GameObject explosao = Instantiate(_prefabExplosao);
             explosao.transform.position = transform.position;
-            Destroy(gameObject);
+            Destroy(transform.parent.gameObject);
         }
     }
 }

@@ -7,7 +7,7 @@ public class ExplosaoController : MonoBehaviour
 
     private void Start()
     {
-        _tempoDestruir = 1f;
+        _tempoDestruir = 0.5f;
     }
 
     private void Update()
