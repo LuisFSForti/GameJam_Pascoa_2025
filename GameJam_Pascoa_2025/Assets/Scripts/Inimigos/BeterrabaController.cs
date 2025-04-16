@@ -14,7 +14,9 @@ public class BeterrabaController : MonoBehaviour
     [SerializeField] private Rigidbody2D _rigidbody2d;
 
     [Header("Explosao")]
+    [SerializeField] private GameObject _prefabExplosao;
     [SerializeField] private float _tempoExplodir;
+    [SerializeField] private CoelhoVida _controladorVida;
 
     void Start()
     {
@@ -25,9 +27,6 @@ public class BeterrabaController : MonoBehaviour
         _tempoExplodir = 0f;
         _tempoPulo = 0f;
         _estaPerseguindo = false;
-
-        //garante que a área de explosao esteja desativada
-        gameObject.GetComponent<CircleCollider2D>().enabled = false;
     }
 
     //funcao que faz a beterraba pular ao "perceber" o player
@@ -71,10 +70,12 @@ public class BeterrabaController : MonoBehaviour
 
         //========================================= Explosao ====================================
 
-        //se o tempo de explodir acabar, a baterraba explode
-        if(_tempoExplodir <= 0.5f && _estaPerseguindo == true)
-            gameObject.GetComponent<CircleCollider2D>().enabled = true;
-        if(_tempoExplodir <= 0f && _estaPerseguindo == true)
+        //se o tempo de explodir acabar ou chegar perto do player, a baterraba explode
+        if (_tempoExplodir <= 0f && _estaPerseguindo == true || _distance <= 2f)
+        {
+            GameObject explosao = Instantiate(_prefabExplosao);
+            explosao.transform.position = transform.position;
             Destroy(gameObject);
+        }
     }
 }

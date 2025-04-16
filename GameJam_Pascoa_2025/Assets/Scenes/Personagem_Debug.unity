@@ -1063,72 +1063,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56b91c784cb882d48963b4d7c614b608, type: 3}
---- !u!1 &1926453072 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3424934858101089554, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
-  m_PrefabInstance: {fileID: 6720817197668671039}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1926453075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926453072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627ed47359f100740a1399f6b961fda3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coelhoPosition: {fileID: 0}
-  _velocidade: 3
-  _distance: 0
-  _maxDistance: 8
-  _tempoPulo: 0
-  _estaPerseguindo: 0
-  _rigidbody2d: {fileID: 1926453077}
-  _tempoExplodir: 0
---- !u!50 &1926453077 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 5138171468589593604, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
-  m_PrefabInstance: {fileID: 6720817197668671039}
-  m_PrefabAsset: {fileID: 0}
---- !u!58 &1926453078
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926453072}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 1.5
 --- !u!1 &1961646966
 GameObject:
   m_ObjectHideFlags: 0
@@ -1530,13 +1464,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3424934858101089554, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1926453075}
-    - targetCorrespondingSourceObject: {fileID: 3424934858101089554, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1926453078}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
