@@ -12,7 +12,6 @@ public class CoelhoFome : MonoBehaviour
     'N' - normal
     'G' - gordo
     'B' - bombado
-    'M' - morto
 
     Como s� 'G' e 'B' dividem uma mesma faixa de fome, ent�o _estado s� precisa guardar estes valores
      */
@@ -45,26 +44,20 @@ public class CoelhoFome : MonoBehaviour
             _fome = 1;
 
         //Para qual estado ele est� indo
-        if (_controladorVida.getEstadoVida() == 0) //Retorna 1 se morto, então se vivo = 0
-            _estado = tipo;
-        else
-            _estado = 'M';
+        _estado = tipo;
     }
 
     //Retorna o estado do coelho
     public char GetEstado()
     {
-        if (_fome <= _limiteInferior){
+        if (_fome <= _limiteInferior)
             return 'F'; //Coelho est� faminto
-        }
-        if (_fome < _limiteSuperior){
+        
+        if (_fome < _limiteSuperior)
             return 'N'; //Coelho est� normal
-        }
-        if ((_controladorVida).getEstadoVida() == 1){
-            Debug.Log("morreu");
-            return 'M';}
-        else{
-            return _estado; }//Coelho est� gordo ou bombado
+
+        else
+            return _estado; //Coelho est� gordo ou bombado
     }
 
     private void Start()

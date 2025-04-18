@@ -8,7 +8,7 @@ public class CoelhoMovimentacao : MonoBehaviour
 {
     [Header("Sprites")]
     [SerializeField] private SpriteRenderer _controladorSprite;
-    [SerializeField] private Sprite _imgNormal, _imgFaminto, _imgGordo, _imgBombado, _imgMorto;
+    [SerializeField] private Sprite _imgNormal, _imgFaminto, _imgGordo, _imgBombado;
     
     [Header("Movimenta��o-Gen�rica")]
     [SerializeField] private float _distChao, _coyoteTime, _tempoNoAr;
@@ -202,12 +202,6 @@ public class CoelhoMovimentacao : MonoBehaviour
                 transform.localScale = new Vector3(2, 2, 0);
                 break;
 
-            case 'M':
-                img = _imgMorto;
-                transform.localScale = Vector3.one;
-                //botar transform depois
-                break;
-
             default:
                 transform.localScale = Vector3.one;
                 break;
@@ -278,11 +272,6 @@ public class CoelhoMovimentacao : MonoBehaviour
                 forcaPuloMax = _forcaPuloMaxGordo;
                 break;
 
-            case 'M':
-                velocidade = 0;
-                forcaPuloAndar = 0;
-                forcaPuloMax = 0;
-                break;
 
             default:
                 velocidade = _velocidadeNormal;
