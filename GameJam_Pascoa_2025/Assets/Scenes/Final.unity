@@ -301,6 +301,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231000331}
   m_CullTransparentMesh: 1
+--- !u!1001 &334178256
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7524235493421575293, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_Name
+      value: BeterrabaContainer (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,6 +1063,120 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421741288}
   m_CullTransparentMesh: 1
+--- !u!1001 &1667284262
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7524235493421575293, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_Name
+      value: BeterrabaContainer (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+--- !u!1001 &1679937135
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7524235493421575293, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_Name
+      value: BeterrabaContainer (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
 --- !u!1001 &1921150259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1190,6 +1361,7 @@ MonoBehaviour:
   _imgFaminto: {fileID: 21300000, guid: 3dca18d10d7aff54887925a23b56762a, type: 3}
   _imgGordo: {fileID: 21300000, guid: eb076e187dea2684f8c56075a106c844, type: 3}
   _imgBombado: {fileID: 21300000, guid: 37a2cc7947c95bc4284e5af8e64f89d4, type: 3}
+  _imgMorto: {fileID: 21300000, guid: 287c1d94899ad7a4fa07ad3e42cfd8dc, type: 3}
   _distChao: 0.1
   _coyoteTime: 0.1
   _tempoNoAr: 0
@@ -1311,6 +1483,121 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _vida: 0
   _vidaMax: 5
+  _morreu: 0
+--- !u!1001 &1971596747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7524235493421575293, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_Name
+      value: BeterrabaContainer (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+--- !u!1001 &1985012867
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975701535220166176, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7524235493421575293, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
+      propertyPath: m_Name
+      value: BeterrabaContainer (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 043d6ddd1b3d4374aaf6d1a95e379296, type: 3}
 --- !u!1 &2117634669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,3 +1772,8 @@ SceneRoots:
   - {fileID: 1031039557}
   - {fileID: 58462797}
   - {fileID: 6720817197668671039}
+  - {fileID: 334178256}
+  - {fileID: 1971596747}
+  - {fileID: 1985012867}
+  - {fileID: 1679937135}
+  - {fileID: 1667284262}
