@@ -46,8 +46,6 @@ public class MilhoController : MonoBehaviour
             bala.transform.position = transform.position;
             balaController.setVelocidade(_tiroVelocidade);
             //A bala ira no proprio codigo se direcionar ao player
-
-                
         }
         
         //comeca a atirar

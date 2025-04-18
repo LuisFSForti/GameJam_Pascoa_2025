@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5180466211558285674}
   m_Layer: 0
   m_Name: milho
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 3995793750395273235}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 9.2, y: 3.22, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1976912616216042070}
@@ -98,7 +98,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3995793750395273235}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -130,13 +130,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _coelhoPosition: {fileID: 0}
-  _tiroVelocidade: 0
-  _tempoTiro: 0
+  _tiroVelocidade: 3
+  _tempoTiro: 3
   _tempoAtirar: 0
   _estaAtirando: 0
   _rigidbody2d: {fileID: 4286500158278464322}
-  _range: 0
-  _prefabTiro: {fileID: 0}
+  _range: 8
+  _prefabTiro: {fileID: 1617683973322653155, guid: e2aad4277969b394fbdd411389162459, type: 3}
 --- !u!70 &5180466211558285674
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

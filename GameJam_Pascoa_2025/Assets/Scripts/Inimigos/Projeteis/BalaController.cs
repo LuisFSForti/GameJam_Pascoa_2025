@@ -13,8 +13,7 @@ public class BalaController : MonoBehaviour
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
-    {
-        
+    {        
         _coelhoPosition = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
 
         Vector2 direction = (_coelhoPosition.transform.position - transform.position).normalized;
@@ -25,18 +24,8 @@ public class BalaController : MonoBehaviour
         _velocidade = _velocidadeDada;
     }
 
-
-    void OnBecameInvisible(){
-        
-            Destroy(gameObject);
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        /*_maxTime -= Time.deltaTime;
-        if (_maxTime<= 0){
-            Destroy(gameObject);
-        }*/
-
+    void OnBecameInvisible()
+    {        
+        Destroy(gameObject);
     }
 }
