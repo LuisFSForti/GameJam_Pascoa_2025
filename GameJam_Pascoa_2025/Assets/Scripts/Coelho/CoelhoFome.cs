@@ -13,7 +13,7 @@ public class CoelhoFome : MonoBehaviour
     'G' - gordo
     'B' - bombado
 
-    Como só 'G' e 'B' dividem uma mesma faixa de fome, então _estado só precisa guardar estes valores
+    Como sï¿½ 'G' e 'B' dividem uma mesma faixa de fome, entï¿½o _estado sï¿½ precisa guardar estes valores
      */
 
     [Header("UI")]
@@ -23,7 +23,7 @@ public class CoelhoFome : MonoBehaviour
     [Header("Controle")]
     [SerializeField] CoelhoVida _controladorVida;
 
-    //Códigos externos podem acessar a fome, mas não podem alterá-lo
+    //Cï¿½digos externos podem acessar a fome, mas nï¿½o podem alterï¿½-lo
     public float Fome
     {
         get { return _fome; }
@@ -43,7 +43,7 @@ public class CoelhoFome : MonoBehaviour
         else if (_fome > 1)
             _fome = 1;
 
-        //Para qual estado ele está indo
+        //Para qual estado ele estï¿½ indo
         _estado = tipo;
     }
 
@@ -51,19 +51,20 @@ public class CoelhoFome : MonoBehaviour
     public char GetEstado()
     {
         if (_fome <= _limiteInferior)
-            return 'F'; //Coelho está faminto
-
+            return 'F'; //Coelho estï¿½ faminto
+        
         if (_fome < _limiteSuperior)
-            return 'N'; //Coelho está normal
+            return 'N'; //Coelho estï¿½ normal
+
         else
-            return _estado; //Coelho está gordo ou bombado
+            return _estado; //Coelho estï¿½ gordo ou bombado
     }
 
     private void Start()
     {
-        //Deixa ele com o máximo possível de fome estando na forma normal
+        //Deixa ele com o mï¿½ximo possï¿½vel de fome estando na forma normal
         _fome = _limiteSuperior;
-        //Estado neutro, não importa o valor aqui pois ele será alterado
+        //Estado neutro, nï¿½o importa o valor aqui pois ele serï¿½ alterado
         _estado = 'N';
     }
 
