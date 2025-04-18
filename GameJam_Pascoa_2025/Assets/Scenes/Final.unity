@@ -1484,6 +1484,10 @@ MonoBehaviour:
   _vida: 0
   _vidaMax: 5
   _morreu: 0
+  _controladorSprite: {fileID: 1961646971}
+  _imgMorto: {fileID: 21300000, guid: 287c1d94899ad7a4fa07ad3e42cfd8dc, type: 3}
+  _controladorMovimentacao: {fileID: 1961646970}
+  _controladorFome: {fileID: 1961646969}
 --- !u!1001 &1971596747
 PrefabInstance:
   m_ObjectHideFlags: 0

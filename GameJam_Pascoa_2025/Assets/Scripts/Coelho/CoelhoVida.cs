@@ -5,6 +5,10 @@ public class CoelhoVida : MonoBehaviour
     [Header("Atributos")]
     [SerializeField] private int _vida, _vidaMax;
     [SerializeField] private int _morreu;
+    [SerializeField] private SpriteRenderer _controladorSprite;
+    [SerializeField] private Sprite _imgMorto;
+    [SerializeField] CoelhoMovimentacao _controladorMovimentacao;
+    [SerializeField] CoelhoFome _controladorFome;
 
 
     //Para alterar a vida do jogador
@@ -25,10 +29,14 @@ public class CoelhoVida : MonoBehaviour
     private void Morreu()
     {
         _morreu = 1;
+        _controladorSprite.sprite = _imgMorto;
+        _controladorFome.enabled = false;
+        _controladorMovimentacao.enabled = false;
         //Tratar a morte do jogador
     }
 
     public int getEstadoVida(){
+        // 1 é morto, 0 é vivo
         return _morreu;
     }
 
