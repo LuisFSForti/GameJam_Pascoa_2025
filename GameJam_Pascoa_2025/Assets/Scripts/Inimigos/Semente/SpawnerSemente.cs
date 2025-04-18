@@ -7,36 +7,35 @@ public class SpawnerSemente : MonoBehaviour
     [SerializeField] private GameObject _sementePrefab;
     [SerializeField] private float _randomPositionX;
     [SerializeField] private float _maxRangeSpawn;
-    [SerializeField] private float _randomSpawnDelay;
+    [SerializeField] private float _randomSpawnDelay, _minSpawnDelay, _maxSpawnDelay;
     [SerializeField] private float _spawnDuration;
     [SerializeField] private bool _isSpawning;
 
     //Pega a posicao do coelho
-    private Vector2 _coelhoPosition;
+    private Transform _coelhoPosition;
 
     //funcao que spawna a semente em posicoes aleatorias pelo eixo x a partir da posicao do coelho
     public void Spawn()
     {
-        _coelhoPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
-        _randomPositionX = Random.Range((_coelhoPosition.x - _maxRangeSpawn), (_coelhoPosition.x + _maxRangeSpawn));
+        _randomPositionX = Random.Range((_coelhoPosition.position.x - _maxRangeSpawn), (_coelhoPosition.position.x + _maxRangeSpawn));
         GameObject semente = Instantiate(_sementePrefab);
-        semente.transform.position = new Vector2(_randomPositionX, (_coelhoPosition.y + 8f));
+        semente.transform.position = new Vector2(_randomPositionX, (_coelhoPosition.position.y + 8f));
     }
 
     //Coroutine que spawna varias sementes com um delay aleatório
     private IEnumerator DelayedSpawn()
     {
         //inicia a contagem da duracao do spawn
-        _spawnDuration = 4f;
+        float t0 = Time.time;
 
         //enquanto a duracao do spawn for maior que 0 vai spawnar em intervalos aleatorios
-        while(_spawnDuration >= 0)
+        while(Time.time <= t0 + _spawnDuration)
         {
             Spawn();
-            yield return new WaitForSeconds(Random.Range(0.75f, 1.5f));
+            yield return new WaitForSeconds(Random.Range(0.25f, 1f));
         }
         //quando a duracao do spawn acabar, sai do Coroutine e para de spawnar
-        _randomSpawnDelay = Random.Range(6f, 20f);
+        _randomSpawnDelay = Random.Range(_minSpawnDelay, _maxSpawnDelay);
         _isSpawning = false;
         yield break;
     }
@@ -48,8 +47,12 @@ public class SpawnerSemente : MonoBehaviour
         //valor do limite da tela do player
         _maxRangeSpawn = 8f;
         //inicia os timers
-        _randomSpawnDelay = Random.Range(6f, 20f);
+        _randomSpawnDelay = Random.Range(_minSpawnDelay, _maxSpawnDelay);
+
+        //Pega a posição do coelho
+        _coelhoPosition = GameObject.FindGameObjectWithTag("Player").transform;
     }
+
     private void Update()
     {
         //diminui os timers
@@ -61,11 +64,6 @@ public class SpawnerSemente : MonoBehaviour
             //comeca a spawnar
             _isSpawning = true;
             StartCoroutine(DelayedSpawn());
-        }
-        //se estiver spawnando, comeca a contagem da duracao do spawn
-        else if (_isSpawning == true)
-        {
-            _spawnDuration -= Time.deltaTime;
         }
     }
 }

@@ -46,5 +46,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sementePrefab: {fileID: 4186506860203340209, guid: 12712a41eb5b6d34a93c9a6d51c39dde, type: 3}
   _randomPositionX: 0
-  _maxRangeSpawn: 9
-  _randomSpawnDelay: 3
+  _maxRangeSpawn: 14
+  _randomSpawnDelay: 0
+  _minSpawnDelay: 10
+  _maxSpawnDelay: 30
+  _spawnDuration: 10
+  _isSpawning: 0
