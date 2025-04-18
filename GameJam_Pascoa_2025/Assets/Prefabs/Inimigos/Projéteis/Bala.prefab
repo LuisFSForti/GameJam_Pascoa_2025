@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9103365315263855471}
   m_Layer: 0
   m_Name: Bala
-  m_TagString: Untagged
+  m_TagString: Projetil
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -166,4 +166,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _coelhoPosition: {fileID: 0}
+  _velocidade: 0
   _rigidbody2d: {fileID: 9040410236870045708}

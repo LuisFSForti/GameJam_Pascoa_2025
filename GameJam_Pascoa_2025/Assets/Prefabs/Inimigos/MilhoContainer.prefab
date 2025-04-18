@@ -130,14 +130,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _coelhoPosition: {fileID: 0}
-  _velocidade: 3
-  _distance: 0
-  _maxDistance: 0
-  _tempoPulo: 8
-  _estaPerseguindo: 0
+  _tiroVelocidade: 0
+  _tempoTiro: 0
+  _tempoAtirar: 0
+  _estaAtirando: 0
   _rigidbody2d: {fileID: 4286500158278464322}
-  _prefabExplosao: {fileID: 321724158245652874, guid: 09ea9bebfc732644f99487d0bccb700c, type: 3}
-  _tempoExplodir: 0
+  _range: 0
+  _prefabTiro: {fileID: 0}
 --- !u!70 &5180466211558285674
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -186,7 +185,7 @@ GameObject:
   - component: {fileID: 1976912616216042070}
   m_Layer: 0
   m_Name: MilhoContainer
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
