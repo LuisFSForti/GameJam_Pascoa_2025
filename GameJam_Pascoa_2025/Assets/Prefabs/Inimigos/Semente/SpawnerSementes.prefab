@@ -49,6 +49,6 @@ MonoBehaviour:
   _maxRangeSpawn: 14
   _randomSpawnDelay: 0
   _minSpawnDelay: 10
-  _maxSpawnDelay: 30
+  _maxSpawnDelay: 20
   _spawnDuration: 10
   _isSpawning: 0
