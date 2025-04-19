@@ -14,7 +14,7 @@ public class BatataController : MonoBehaviour
     {
         //Se o objeto não estiver muito próximo à base da batata, ou seja, se não for o chão
         //Então funciona com paredes e outras criaturas
-        if(collision.collider.transform.position.y > transform.position.y - transform.localScale.y/2)
+        if(collision.collider.transform.position.y > transform.position.y - transform.localScale.y/2 || collision.collider.tag == "Inimigo")
         {
             //Inverte a direção do movimento
             _velocidade *= -1;
