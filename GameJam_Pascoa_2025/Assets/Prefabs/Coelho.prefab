@@ -130,7 +130,7 @@ MonoBehaviour:
   _controladorVida: {fileID: 8623004112911919203}
   _tempoVida: 0.5
   _forcaImpacto: 2
-  _yMorte: -10
+  _yMorte: -15
   _corpo: {fileID: 8213640394860577735}
   _estaParalizado: 0
   _layersChao:
@@ -188,6 +188,7 @@ MonoBehaviour:
   _controladorFome: {fileID: 5637889534361427132}
   _tempoMorrer: 2
   _pauseMenu: {fileID: 0}
+  _textoVidas: {fileID: 0}
 --- !u!70 &8552402315355421249
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

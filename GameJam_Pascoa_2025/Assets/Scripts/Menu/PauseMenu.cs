@@ -38,13 +38,13 @@ public class PauseMenu : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape) && _controladorVida.getEstadoVida() != 1)
+        if(Input.GetKeyDown(KeyCode.Escape))
         {
             if (_pauseMenu.activeSelf == false)
             {
                 Pausar();
             }
-            else
+            else if(_controladorVida.getEstadoVida() != 1)
             {
                 Time.timeScale = 1;
                 _pauseMenu.SetActive(false);

@@ -64,7 +64,7 @@ public class MilhoController : MonoBehaviour
         _tempoAtirar -= Time.deltaTime;
 
         //mede a distancia entre o coelho e o milho
-        float _distance = Mathf.Abs(transform.position.x - _coelhoPosition.transform.position.x);
+        float _distance = Vector2.Distance(transform.position, _coelhoPosition.transform.position);
         
         //checa se o milho esta na tela
         if(_distance <= _range)

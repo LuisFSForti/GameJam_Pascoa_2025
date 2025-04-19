@@ -51,7 +51,7 @@ public class BeterrabaController : MonoBehaviour
         _tempoExplodir -= Time.deltaTime;
 
         //mede a distancia entre o coelho e a beterraba
-        _distance = Mathf.Abs(transform.position.x - _coelhoPosition.transform.position.x);
+        _distance = Vector2.Distance(transform.position, _coelhoPosition.transform.position);
         
         //checa se a beterraba entrou na tela do player
         if(_distance <= _maxDistance)

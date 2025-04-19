@@ -44,6 +44,7 @@ public class CoelhoVida : MonoBehaviour
         _morreu = 1;
 
         _controladorSprite.sprite = _imgMorto;
+        transform.localScale = Vector3.one;
 
         _controladorFome.enabled = false;
         _controladorMovimentacao.enabled = false;
