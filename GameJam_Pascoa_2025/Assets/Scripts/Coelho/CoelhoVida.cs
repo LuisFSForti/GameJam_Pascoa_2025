@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class CoelhoVida : MonoBehaviour
@@ -17,11 +18,16 @@ public class CoelhoVida : MonoBehaviour
     [SerializeField] private float _tempoMorrer;
     [SerializeField] private PauseMenu _pauseMenu;
 
+    [Header("UI")]
+    [SerializeField] private TMP_Text _textoVidas;
+
 
     //Para alterar a vida do jogador
     public void MudarVida(int valor)
     {
         _vida += valor;
+
+        _textoVidas.text = "x" + _vida.ToString();
 
         if(_vida > _vidaMax)
             _vida = _vidaMax;
@@ -60,5 +66,6 @@ public class CoelhoVida : MonoBehaviour
     {
         _vida = _vidaMax;
         _morreu = 0;
+        MudarVida(0); //Para atualizar o texto de vida
     }
 }
