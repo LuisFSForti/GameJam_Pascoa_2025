@@ -130,6 +130,7 @@ MonoBehaviour:
   _controladorVida: {fileID: 8623004112911919203}
   _tempoVida: 0.5
   _forcaImpacto: 2
+  _yMorte: -10
   _corpo: {fileID: 8213640394860577735}
   _estaParalizado: 0
   _layersChao:
@@ -180,6 +181,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _vida: 0
   _vidaMax: 5
+  _morreu: 0
+  _controladorSprite: {fileID: 2894471621446767369}
+  _imgMorto: {fileID: 21300000, guid: 287c1d94899ad7a4fa07ad3e42cfd8dc, type: 3}
+  _controladorMovimentacao: {fileID: 8738539456479616063}
+  _controladorFome: {fileID: 5637889534361427132}
+  _tempoMorrer: 2
+  _pauseMenu: {fileID: 0}
 --- !u!70 &8552402315355421249
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -31,7 +31,7 @@ public class CoelhoMovimentacao : MonoBehaviour
 
     [Header("Vida")]
     [SerializeField] CoelhoVida _controladorVida;
-    [SerializeField] private float _tempoVida, _forcaImpacto;
+    [SerializeField] private float _tempoVida, _forcaImpacto, _yMorte;
 
     [Header("Controle")]
     [SerializeField] private Rigidbody2D _corpo;
@@ -183,6 +183,12 @@ public class CoelhoMovimentacao : MonoBehaviour
 
     void Update()
     {
+        if(transform.position.y <= _yMorte)
+        {
+            _controladorVida.MudarVida(-10000000);
+            return;
+        }
+
         //Atualiza o sprite e o tamanho de acordo com o estado
         Sprite img = _imgNormal;
         switch (_controladorFome.GetEstado())
