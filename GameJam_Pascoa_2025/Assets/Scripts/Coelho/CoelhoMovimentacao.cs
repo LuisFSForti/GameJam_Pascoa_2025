@@ -66,15 +66,15 @@ public class CoelhoMovimentacao : MonoBehaviour
         {
             if(_controladorFome.GetEstado() != 'B')
             {
-                //Perde vida
-                _controladorVida.MudarVida(-1);
-
                 //Paraliza o jogador
                 _estaParalizado = _tempoVida;
                 _corpo.linearVelocity = Vector2.zero;
 
                 //Empurra ele na dire��o oposta � fonte de dano
                 _corpo.AddForce(new Vector2((collision.gameObject.transform.position.x > transform.position.x ? -1 : 1) * _forcaImpacto, 1), ForceMode2D.Impulse);
+
+                //Perde vida
+                _controladorVida.MudarVida(-1);
 
                 //Sai da fun��o
                 return;
@@ -145,15 +145,15 @@ public class CoelhoMovimentacao : MonoBehaviour
 
             //Se n�o destruiu o objeto
 
-            //Perde vida
-            _controladorVida.MudarVida(-1);
-
             //Paraliza o jogador
             _estaParalizado = _tempoVida;
             _corpo.linearVelocity = Vector2.zero;
 
             //Empurra ele na dire��o oposta � fonte de dano
             _corpo.AddForce(new Vector2((collision.collider.transform.position.x > transform.position.x ? -1 : 1) * _forcaImpacto, 1), ForceMode2D.Impulse);
+
+            //Perde vida
+            _controladorVida.MudarVida(-1);
 
             //Sai da fun��o
             return;

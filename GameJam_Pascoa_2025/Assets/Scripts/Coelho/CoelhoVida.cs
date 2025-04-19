@@ -12,6 +12,7 @@ public class CoelhoVida : MonoBehaviour
     [SerializeField] private SpriteRenderer _controladorSprite;
     [SerializeField] private Sprite _imgMorto;
 
+    [SerializeField] private Rigidbody2D _corpo;
     [SerializeField] private CoelhoMovimentacao _controladorMovimentacao;
     [SerializeField] private CoelhoFome _controladorFome;
 
@@ -27,8 +28,6 @@ public class CoelhoVida : MonoBehaviour
     {
         _vida += valor;
 
-        _textoVidas.text = "x" + _vida.ToString();
-
         if(_vida > _vidaMax)
             _vida = _vidaMax;
 
@@ -37,11 +36,14 @@ public class CoelhoVida : MonoBehaviour
             _vida = 0;
             Morreu();
         }
+
+        _textoVidas.text = "x" + _vida.ToString();
     }
 
     private void Morreu()
     {
         _morreu = 1;
+        _corpo.linearVelocityX = 0;
 
         _controladorSprite.sprite = _imgMorto;
         transform.localScale = Vector3.one;
