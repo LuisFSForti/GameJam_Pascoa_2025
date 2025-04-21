@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 693be1f13823f9049b33cd0382b7f345
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2623446319804884352
+    second: beterraba_idle_0
+  - first:
+      213: 6223466317526021622
+    second: beterraba_idle_1
+  - first:
+      213: 8256347778348363736
+    second: beterraba_idle_2
+  - first:
+      213: 78322775224298437
+    second: beterraba_idle_3
+  - first:
+      213: 6164291934480435086
+    second: beterraba_idle_4
+  - first:
+      213: -1206030363050781269
+    second: beterraba_idle_5
+  - first:
+      213: 1381990678419741650
+    second: beterraba_idle_6
+  - first:
+      213: 8329308754820873048
+    second: beterraba_idle_7
+  - first:
+      213: 1395912786387387756
+    second: beterraba_idle_8
+  - first:
+      213: -485003958809564468
+    second: beterraba_idle_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beterraba_idle_0
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 4115
+        width: 1488
+        height: 1911
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085a64b378a586420800000000000000
+      internalID: 2623446319804884352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_idle_1
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 4115
+        width: 1488
+        height: 1911
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f53fb774a13e5650800000000000000
+      internalID: 6223466317526021622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_idle_2
+      rect:
+        serializedVersion: 2
+        x: 4270
+        y: 4115
+        width: 1488
+        height: 1911
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df2a867f80749270800000000000000
+      internalID: 8256347778348363736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_idle_3
+      rect:
+        serializedVersion: 2
+        x: 6318
+        y: 4115
+        width: 1488
+        height: 1911
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb211b2622461100800000000000000
+      internalID: 78322775224298437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_idle_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2067
+        width: 1488
+        height: 1911
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e870386cad6fb8550800000000000000
+      internalID: 6164291934480435086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_idle_5
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 2067
+        width: 1488
+        height: 1911
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5d50e46c1534fe0800000000000000
+      internalID: -1206030363050781269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_idle_6
+      rect:
+        serializedVersion: 2
+        x: 4270
+        y: 2067
+        width: 1488
+        height: 1911
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db1c1e2331dd2310800000000000000
+      internalID: 1381990678419741650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_idle_7
+      rect:
+        serializedVersion: 2
+        x: 6318
+        y: 2067
+        width: 1488
+        height: 1911
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b36a39e26a79370800000000000000
+      internalID: 8329308754820873048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_idle_8
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 19
+        width: 1488
+        height: 1911
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65cb0a88474f5310800000000000000
+      internalID: 1395912786387387756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_idle_9
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 19
+        width: 1488
+        height: 1911
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca6f78187be449f0800000000000000
+      internalID: -485003958809564468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8a312cb41e7a8db4a88d68528c349b95
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      beterraba_idle_0: 2623446319804884352
+      beterraba_idle_1: 6223466317526021622
+      beterraba_idle_2: 8256347778348363736
+      beterraba_idle_3: 78322775224298437
+      beterraba_idle_4: 6164291934480435086
+      beterraba_idle_5: -1206030363050781269
+      beterraba_idle_6: 1381990678419741650
+      beterraba_idle_7: 8329308754820873048
+      beterraba_idle_8: 1395912786387387756
+      beterraba_idle_9: -485003958809564468
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: a35bcd161b80d29429465bad144c0065
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4840688124398786237
+    second: batata_idle_0
+  - first:
+      213: -5155063913610374020
+    second: batata_idle_1
+  - first:
+      213: 5827306978115285248
+    second: batata_idle_2
+  - first:
+      213: -3943823558636861661
+    second: batata_idle_3
+  - first:
+      213: 7462052888288032900
+    second: batata_idle_4
+  - first:
+      213: -6558099515691865847
+    second: batata_idle_5
+  - first:
+      213: -6533831588271227130
+    second: batata_idle_6
+  - first:
+      213: 6587536149167025845
+    second: batata_idle_7
+  - first:
+      213: -6336808581705981767
+    second: batata_idle_8
+  - first:
+      213: 6173695186794097478
+    second: batata_idle_9
+  - first:
+      213: 5993768386072158794
+    second: batata_idle_10
+  - first:
+      213: 8695033091824443005
+    second: batata_idle_11
+  - first:
+      213: 2463946264263403589
+    second: batata_idle_12
+  - first:
+      213: 4871361516976758987
+    second: batata_idle_13
+  - first:
+      213: -4943815479390810066
+    second: batata_idle_14
+  - first:
+      213: 1936744477310025466
+    second: batata_idle_15
+  - first:
+      213: 1621729682264664959
+    second: batata_idle_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: batata_idle_0
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 6156
+        width: 1367
+        height: 1124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6dd3bb3349d2340800000000000000
+      internalID: 4840688124398786237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_1
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 6156
+        width: 1367
+        height: 1103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7491daeea88578b0800000000000000
+      internalID: -5155063913610374020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_2
+      rect:
+        serializedVersion: 2
+        x: 4471
+        y: 6156
+        width: 1367
+        height: 1093
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00177bb72d0ced050800000000000000
+      internalID: 5827306978115285248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_3
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 6156
+        width: 1367
+        height: 1085
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32702a26e59b449c0800000000000000
+      internalID: -3943823558636861661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_4
+      rect:
+        serializedVersion: 2
+        x: 8493
+        y: 6156
+        width: 1367
+        height: 1094
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488f595f0998e8760800000000000000
+      internalID: 7462052888288032900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 4108
+        width: 1367
+        height: 1112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909668d9c33fcf4a0800000000000000
+      internalID: -6558099515691865847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_6
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 4108
+        width: 1367
+        height: 1138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ffdd6c9ca2355a0800000000000000
+      internalID: -6533831588271227130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_7
+      rect:
+        serializedVersion: 2
+        x: 4441
+        y: 4108
+        width: 1367
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be2524b931ab6b50800000000000000
+      internalID: 6587536149167025845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_8
+      rect:
+        serializedVersion: 2
+        x: 6493
+        y: 4108
+        width: 1367
+        height: 1174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0a4c53b222f08a0800000000000000
+      internalID: -6336808581705981767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_9
+      rect:
+        serializedVersion: 2
+        x: 8598
+        y: 4108
+        width: 1367
+        height: 1185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ba660101f5da550800000000000000
+      internalID: 6173695186794097478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_10
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2060
+        width: 1367
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a422ccd37942e2350800000000000000
+      internalID: 5993768386072158794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_11
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 2060
+        width: 1367
+        height: 1109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e567c5786faa870800000000000000
+      internalID: 8695033091824443005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_12
+      rect:
+        serializedVersion: 2
+        x: 4503
+        y: 2060
+        width: 1367
+        height: 1069
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5482213a212b13220800000000000000
+      internalID: 2463946264263403589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_13
+      rect:
+        serializedVersion: 2
+        x: 6517
+        y: 2060
+        width: 1367
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc068e77d7d8a9340800000000000000
+      internalID: 4871361516976758987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_14
+      rect:
+        serializedVersion: 2
+        x: 8548
+        y: 2060
+        width: 1367
+        height: 1059
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2055d3d30a046bb0800000000000000
+      internalID: -4943815479390810066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_15
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 12
+        width: 1367
+        height: 1108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe73ce37d2b0ea10800000000000000
+      internalID: 1936744477310025466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batata_idle_16
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 12
+        width: 1367
+        height: 1124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ba711cd8a818610800000000000000
+      internalID: 1621729682264664959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      batata_idle_0: 4840688124398786237
+      batata_idle_1: -5155063913610374020
+      batata_idle_10: 5993768386072158794
+      batata_idle_11: 8695033091824443005
+      batata_idle_12: 2463946264263403589
+      batata_idle_13: 4871361516976758987
+      batata_idle_14: -4943815479390810066
+      batata_idle_15: 1936744477310025466
+      batata_idle_16: 1621729682264664959
+      batata_idle_2: 5827306978115285248
+      batata_idle_3: -3943823558636861661
+      batata_idle_4: 7462052888288032900
+      batata_idle_5: -6558099515691865847
+      batata_idle_6: -6533831588271227130
+      batata_idle_7: 6587536149167025845
+      batata_idle_8: -6336808581705981767
+      batata_idle_9: 6173695186794097478
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

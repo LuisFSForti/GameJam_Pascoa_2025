@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Timeline;
 
 public class BeterrabaController : MonoBehaviour
 {
@@ -12,10 +13,13 @@ public class BeterrabaController : MonoBehaviour
     [SerializeField] private float _tempoPulo;
     [SerializeField] private bool _estaPerseguindo;
     [SerializeField] private Rigidbody2D _rigidbody2d;
+    
 
     [Header("Explosao")]
     [SerializeField] private GameObject _prefabExplosao;
     [SerializeField] private float _tempoExplodir;
+
+    private Animator mAnimator;
 
     void Start()
     {
@@ -26,6 +30,9 @@ public class BeterrabaController : MonoBehaviour
         _tempoExplodir = 0f;
         _tempoPulo = 0f;
         _estaPerseguindo = false;
+
+        //localiza o animador
+        mAnimator = GetComponent<Animator>();
     }
 
     //funcao que faz a beterraba pular ao "perceber" o player
@@ -37,6 +44,7 @@ public class BeterrabaController : MonoBehaviour
             _rigidbody2d.AddForceY(3f, ForceMode2D.Impulse);
             _tempoPulo = 1f;
             _tempoExplodir = 8f;
+            mAnimator.SetTrigger("TrAnda");
         }
         //comeca a perseguir o coelho
         _estaPerseguindo = true;
@@ -62,10 +70,16 @@ public class BeterrabaController : MonoBehaviour
 
         //se a beterraba estiver a esquerda do coelho
         if (transform.position.x < _coelhoPosition.transform.position.x && _estaPerseguindo == true && _tempoPulo <= 0)
+        { 
             _rigidbody2d.linearVelocityX = _velocidade;
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
         //se a beterraba estiver a direita do coelho
         else if (transform.position.x > _coelhoPosition.transform.position.x && _estaPerseguindo == true && _tempoPulo <= 0)
+        { 
             _rigidbody2d.linearVelocityX = _velocidade * -1;
+            transform.localScale = new Vector3( -Mathf.Abs(transform.localScale.x),transform.localScale.y,transform.localScale.z );
+        }
 
         //========================================= Explosao ====================================
 

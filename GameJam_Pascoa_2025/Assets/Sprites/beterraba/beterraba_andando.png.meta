@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: ea77979436bdf914da968e4fc57083e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9127693220860060521
+    second: beterraba_andando_0
+  - first:
+      213: -1817055937348507075
+    second: beterraba_andando_1
+  - first:
+      213: 3376495703333483721
+    second: beterraba_andando_2
+  - first:
+      213: 442351029001262178
+    second: beterraba_andando_3
+  - first:
+      213: -7010163857055572534
+    second: beterraba_andando_4
+  - first:
+      213: 949929712897577491
+    second: beterraba_andando_5
+  - first:
+      213: -4624478691118622582
+    second: beterraba_andando_6
+  - first:
+      213: 4730971204569929547
+    second: beterraba_andando_7
+  - first:
+      213: -8699629184475061800
+    second: beterraba_andando_8
+  - first:
+      213: 4178895452340894421
+    second: beterraba_andando_9
+  - first:
+      213: -5850222102948090152
+    second: beterraba_andando_10
+  - first:
+      213: -2797585202782167347
+    second: beterraba_andando_11
+  - first:
+      213: -1747075226938019100
+    second: beterraba_andando_12
+  - first:
+      213: -4053242365809294569
+    second: beterraba_andando_13
+  - first:
+      213: -1338283756580880812
+    second: beterraba_andando_14
+  - first:
+      213: 8765738598532633751
+    second: beterraba_andando_15
+  - first:
+      213: -7058065818225133961
+    second: beterraba_andando_16
+  - first:
+      213: 2356786187274022098
+    second: beterraba_andando_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beterraba_andando_0
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 6163
+        width: 1488
+        height: 1895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963ea10bf941cae70800000000000000
+      internalID: 9127693220860060521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_1
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 6166
+        width: 1488
+        height: 1914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ae35d804588c6e0800000000000000
+      internalID: -1817055937348507075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_2
+      rect:
+        serializedVersion: 2
+        x: 4240
+        y: 6178
+        width: 1488
+        height: 1916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c433d6e3f8bbde20800000000000000
+      internalID: 3376495703333483721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_3
+      rect:
+        serializedVersion: 2
+        x: 6288
+        y: 6189
+        width: 1488
+        height: 1928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26416adcaeb832600800000000000000
+      internalID: 442351029001262178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_4
+      rect:
+        serializedVersion: 2
+        x: 8338
+        y: 6189
+        width: 1488
+        height: 1948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd9bea0d15e6be90800000000000000
+      internalID: -7010163857055572534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 4145
+        width: 1552
+        height: 1937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31259da7a04de2d00800000000000000
+      internalID: 949929712897577491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_6
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 4147
+        width: 1602
+        height: 1914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88d288c12d82dfb0800000000000000
+      internalID: -4624478691118622582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_7
+      rect:
+        serializedVersion: 2
+        x: 4097
+        y: 4148
+        width: 1633
+        height: 1895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b471efaae39c7a140800000000000000
+      internalID: 4730971204569929547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_8
+      rect:
+        serializedVersion: 2
+        x: 6148
+        y: 4153
+        width: 1628
+        height: 1878
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d12ebd6955b44780800000000000000
+      internalID: -8699629184475061800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_9
+      rect:
+        serializedVersion: 2
+        x: 8210
+        y: 4165
+        width: 1614
+        height: 1887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da364ee54b6ef930800000000000000
+      internalID: 4178895452340894421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2124
+        width: 1606
+        height: 1901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dee3a04ef5dfcea0800000000000000
+      internalID: -5850222102948090152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_11
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 2129
+        width: 1636
+        height: 1901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce974f841bfc29d0800000000000000
+      internalID: -2797585202782167347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_12
+      rect:
+        serializedVersion: 2
+        x: 4186
+        y: 2095
+        width: 1585
+        height: 1927
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e27976665421c7e0800000000000000
+      internalID: -1747075226938019100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_13
+      rect:
+        serializedVersion: 2
+        x: 6242
+        y: 2101
+        width: 1534
+        height: 1916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7138f551b8dffb7c0800000000000000
+      internalID: -4053242365809294569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_14
+      rect:
+        serializedVersion: 2
+        x: 8325
+        y: 2093
+        width: 1494
+        height: 1913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e325093067d6de0800000000000000
+      internalID: -1338283756580880812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_15
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 50
+        width: 1488
+        height: 1886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794d77fffc826a970800000000000000
+      internalID: 8765738598532633751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_16
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 29
+        width: 1488
+        height: 1907
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7763d579886bc0e90800000000000000
+      internalID: -7058065818225133961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beterraba_andando_17
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 29
+        width: 1488
+        height: 1907
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dce300fc8cf4b020800000000000000
+      internalID: 2356786187274022098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      beterraba_andando_0: 9127693220860060521
+      beterraba_andando_1: -1817055937348507075
+      beterraba_andando_10: -5850222102948090152
+      beterraba_andando_11: -2797585202782167347
+      beterraba_andando_12: -1747075226938019100
+      beterraba_andando_13: -4053242365809294569
+      beterraba_andando_14: -1338283756580880812
+      beterraba_andando_15: 8765738598532633751
+      beterraba_andando_16: -7058065818225133961
+      beterraba_andando_17: 2356786187274022098
+      beterraba_andando_2: 3376495703333483721
+      beterraba_andando_3: 442351029001262178
+      beterraba_andando_4: -7010163857055572534
+      beterraba_andando_5: 949929712897577491
+      beterraba_andando_6: -4624478691118622582
+      beterraba_andando_7: 4730971204569929547
+      beterraba_andando_8: -8699629184475061800
+      beterraba_andando_9: 4178895452340894421
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
