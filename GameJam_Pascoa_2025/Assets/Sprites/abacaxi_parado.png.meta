@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 0121527aa6dc37749abeb4e0922fdc1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1979743324168365314
+    second: abacaxi_parado_0
+  - first:
+      213: 1163217969806012606
+    second: abacaxi_parado_1
+  - first:
+      213: 6873877135900472612
+    second: abacaxi_parado_2
+  - first:
+      213: -263331548638530513
+    second: abacaxi_parado_3
+  - first:
+      213: 8810391700509000993
+    second: abacaxi_parado_4
+  - first:
+      213: 1629451976490617104
+    second: abacaxi_parado_5
+  - first:
+      213: -3360210973753389674
+    second: abacaxi_parado_6
+  - first:
+      213: -410564951862205576
+    second: abacaxi_parado_7
+  - first:
+      213: 7318195908116428249
+    second: abacaxi_parado_8
+  - first:
+      213: -6710367615053363907
+    second: abacaxi_parado_9
+  - first:
+      213: 8060914354279185467
+    second: abacaxi_parado_10
+  - first:
+      213: -8545289680388586330
+    second: abacaxi_parado_11
+  - first:
+      213: 6283847947104720769
+    second: abacaxi_parado_12
+  - first:
+      213: -5094292487095130663
+    second: abacaxi_parado_13
+  - first:
+      213: 3914068560108984529
+    second: abacaxi_parado_14
+  - first:
+      213: -4932445003538140829
+    second: abacaxi_parado_15
+  - first:
+      213: 1106779764327828537
+    second: abacaxi_parado_16
+  - first:
+      213: 3089958865922416313
+    second: abacaxi_parado_17
+  - first:
+      213: -1178438478615137231
+    second: abacaxi_parado_18
+  - first:
+      213: -4228000202849878422
+    second: abacaxi_parado_19
+  - first:
+      213: -1073630980894907604
+    second: abacaxi_parado_20
+  - first:
+      213: 6997924907239198606
+    second: abacaxi_parado_21
+  - first:
+      213: -1987254923133399579
+    second: abacaxi_parado_22
+  - first:
+      213: 2655194708907007451
+    second: abacaxi_parado_23
+  - first:
+      213: 6408573371300657851
+    second: abacaxi_parado_24
+  - first:
+      213: -1703167188912319056
+    second: abacaxi_parado_25
+  - first:
+      213: -4247299920851410962
+    second: abacaxi_parado_26
+  - first:
+      213: 5839470729838368484
+    second: abacaxi_parado_27
+  - first:
+      213: -3895777177250600268
+    second: abacaxi_parado_28
+  - first:
+      213: 6944461023775431474
+    second: abacaxi_parado_29
+  - first:
+      213: -8979233831948436122
+    second: abacaxi_parado_30
+  - first:
+      213: -6479788120404296554
+    second: abacaxi_parado_31
+  - first:
+      213: -6633306772351274436
+    second: abacaxi_parado_32
+  - first:
+      213: 9012529366787021097
+    second: abacaxi_parado_33
+  - first:
+      213: 1397603730281846878
+    second: abacaxi_parado_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abacaxi_parado_0
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 10257
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa5e709fe98684e0800000000000000
+      internalID: -1979743324168365314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_1
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 10257
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb073ae9494942010800000000000000
+      internalID: 1163217969806012606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_2
+      rect:
+        serializedVersion: 2
+        x: 4632
+        y: 10225
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425f603f5dae46f50800000000000000
+      internalID: 6873877135900472612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_3
+      rect:
+        serializedVersion: 2
+        x: 6680
+        y: 10257
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f243f390a55785cf0800000000000000
+      internalID: -263331548638530513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_4
+      rect:
+        serializedVersion: 2
+        x: 8728
+        y: 10257
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12583e8729cc44a70800000000000000
+      internalID: 8810391700509000993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_5
+      rect:
+        serializedVersion: 2
+        x: 10776
+        y: 10257
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019084d70f9fc9610800000000000000
+      internalID: 1629451976490617104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_6
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 8209
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d4f0b2ce12e51d0800000000000000
+      internalID: -3360210973753389674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_7
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 8209
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873270ff9516d4af0800000000000000
+      internalID: -410564951862205576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_8
+      rect:
+        serializedVersion: 2
+        x: 4632
+        y: 8209
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d53ffba7647f8560800000000000000
+      internalID: 7318195908116428249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_9
+      rect:
+        serializedVersion: 2
+        x: 6680
+        y: 8209
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d358578053cffd2a0800000000000000
+      internalID: -6710367615053363907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_10
+      rect:
+        serializedVersion: 2
+        x: 8728
+        y: 8209
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c78ab85ee1edf60800000000000000
+      internalID: 8060914354279185467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_11
+      rect:
+        serializedVersion: 2
+        x: 10776
+        y: 8209
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a480a18f48096980800000000000000
+      internalID: -8545289680388586330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_12
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 6161
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1879eb52a66b43750800000000000000
+      internalID: 6283847947104720769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_13
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 6161
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5e0c449ff6d49b0800000000000000
+      internalID: -5094292487095130663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_14
+      rect:
+        serializedVersion: 2
+        x: 4632
+        y: 6161
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d812d72e90915630800000000000000
+      internalID: 3914068560108984529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_15
+      rect:
+        serializedVersion: 2
+        x: 6680
+        y: 6161
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36175f9076f6c8bb0800000000000000
+      internalID: -4932445003538140829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_16
+      rect:
+        serializedVersion: 2
+        x: 8728
+        y: 6161
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cc959e4521c5f00800000000000000
+      internalID: 1106779764327828537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_17
+      rect:
+        serializedVersion: 2
+        x: 10776
+        y: 6161
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bedfdd973db1ea20800000000000000
+      internalID: 3089958865922416313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_18
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 4113
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1343e74827855afe0800000000000000
+      internalID: -1178438478615137231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_19
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 4113
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e7ad667302355c0800000000000000
+      internalID: -4228000202849878422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_20
+      rect:
+        serializedVersion: 2
+        x: 4632
+        y: 4113
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23a7ebaf42b911f0800000000000000
+      internalID: -1073630980894907604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_21
+      rect:
+        serializedVersion: 2
+        x: 6680
+        y: 4113
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fc9d460af9d1160800000000000000
+      internalID: 6997924907239198606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_22
+      rect:
+        serializedVersion: 2
+        x: 8728
+        y: 4113
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edcc742d2adb64e0800000000000000
+      internalID: -1987254923133399579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_23
+      rect:
+        serializedVersion: 2
+        x: 10776
+        y: 4113
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd16e9158529d420800000000000000
+      internalID: 2655194708907007451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_24
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2065
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba3761f683dfe850800000000000000
+      internalID: 6408573371300657851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_25
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 2065
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5d7c727722d58e0800000000000000
+      internalID: -1703167188912319056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_26
+      rect:
+        serializedVersion: 2
+        x: 4632
+        y: 2065
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef5b13a93f8e05c0800000000000000
+      internalID: -4247299920851410962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_27
+      rect:
+        serializedVersion: 2
+        x: 6680
+        y: 2065
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e69e40a0b7f90150800000000000000
+      internalID: 5839470729838368484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_28
+      rect:
+        serializedVersion: 2
+        x: 8728
+        y: 2065
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba67e94c4b6fe9c0800000000000000
+      internalID: -3895777177250600268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_29
+      rect:
+        serializedVersion: 2
+        x: 10776
+        y: 2065
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b1eaef18eaf5060800000000000000
+      internalID: 6944461023775431474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_30
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 17
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d3b83676a536380800000000000000
+      internalID: -8979233831948436122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_31
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 17
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c718f290b2316a0800000000000000
+      internalID: -6479788120404296554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_32
+      rect:
+        serializedVersion: 2
+        x: 4632
+        y: 17
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c323fc3a2a2c1f3a0800000000000000
+      internalID: -6633306772351274436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_33
+      rect:
+        serializedVersion: 2
+        x: 6680
+        y: 17
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929dd1b65bfe21d70800000000000000
+      internalID: 9012529366787021097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacaxi_parado_34
+      rect:
+        serializedVersion: 2
+        x: 8728
+        y: 17
+        width: 967
+        height: 1976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58d5381039456310800000000000000
+      internalID: 1397603730281846878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 84a77da426c6cd24bafb76f7e6d32e32
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abacaxi_parado_0: -1979743324168365314
+      abacaxi_parado_1: 1163217969806012606
+      abacaxi_parado_10: 8060914354279185467
+      abacaxi_parado_11: -8545289680388586330
+      abacaxi_parado_12: 6283847947104720769
+      abacaxi_parado_13: -5094292487095130663
+      abacaxi_parado_14: 3914068560108984529
+      abacaxi_parado_15: -4932445003538140829
+      abacaxi_parado_16: 1106779764327828537
+      abacaxi_parado_17: 3089958865922416313
+      abacaxi_parado_18: -1178438478615137231
+      abacaxi_parado_19: -4228000202849878422
+      abacaxi_parado_2: 6873877135900472612
+      abacaxi_parado_20: -1073630980894907604
+      abacaxi_parado_21: 6997924907239198606
+      abacaxi_parado_22: -1987254923133399579
+      abacaxi_parado_23: 2655194708907007451
+      abacaxi_parado_24: 6408573371300657851
+      abacaxi_parado_25: -1703167188912319056
+      abacaxi_parado_26: -4247299920851410962
+      abacaxi_parado_27: 5839470729838368484
+      abacaxi_parado_28: -3895777177250600268
+      abacaxi_parado_29: 6944461023775431474
+      abacaxi_parado_3: -263331548638530513
+      abacaxi_parado_30: -8979233831948436122
+      abacaxi_parado_31: -6479788120404296554
+      abacaxi_parado_32: -6633306772351274436
+      abacaxi_parado_33: 9012529366787021097
+      abacaxi_parado_34: 1397603730281846878
+      abacaxi_parado_4: 8810391700509000993
+      abacaxi_parado_5: 1629451976490617104
+      abacaxi_parado_6: -3360210973753389674
+      abacaxi_parado_7: -410564951862205576
+      abacaxi_parado_8: 7318195908116428249
+      abacaxi_parado_9: -6710367615053363907
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
