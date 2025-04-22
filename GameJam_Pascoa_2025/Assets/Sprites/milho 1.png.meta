@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 8548ff424a935ea42b6fe2fb2ccf70de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7243125727854063797
+    second: milho 1_0
+  - first:
+      213: 3140704503298267535
+    second: milho 1_1
+  - first:
+      213: 5491756747926909786
+    second: milho 1_2
+  - first:
+      213: -6779333080579345536
+    second: milho 1_3
+  - first:
+      213: 8187416437955224653
+    second: milho 1_4
+  - first:
+      213: -5169892874343950361
+    second: milho 1_5
+  - first:
+      213: -5601896610438805415
+    second: milho 1_6
+  - first:
+      213: 5869411360401002956
+    second: milho 1_7
+  - first:
+      213: 7799995202236300300
+    second: milho 1_8
+  - first:
+      213: 1248008790371990369
+    second: milho 1_9
+  - first:
+      213: 5475426388296706415
+    second: milho 1_10
+  - first:
+      213: -6495533710943349260
+    second: milho 1_11
+  - first:
+      213: 4097171304461964777
+    second: milho 1_12
+  - first:
+      213: 4095567323546879313
+    second: milho 1_13
+  - first:
+      213: -627350274391652024
+    second: milho 1_14
+  - first:
+      213: 1135430056033656081
+    second: milho 1_15
+  - first:
+      213: -5300627273472160375
+    second: milho 1_16
+  - first:
+      213: -3365121153348957688
+    second: milho 1_17
+  - first:
+      213: -6681245895818689964
+    second: milho 1_18
+  - first:
+      213: 2830689553884327291
+    second: milho 1_19
+  - first:
+      213: -416297832866984947
+    second: milho 1_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 700
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: milho 1_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4175
+        width: 809
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0fb384970c48460800000000000000
+      internalID: 7243125727854063797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_1
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 4185
+        width: 839
+        height: 812
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8910970b16069b20800000000000000
+      internalID: 3140704503298267535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_2
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 4208
+        width: 865
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53b9096aa3a63c40800000000000000
+      internalID: 5491756747926909786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_3
+      rect:
+        serializedVersion: 2
+        x: 3156
+        y: 4245
+        width: 887
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083730e4b78fae1a0800000000000000
+      internalID: -6779333080579345536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_4
+      rect:
+        serializedVersion: 2
+        x: 4174
+        y: 4280
+        width: 897
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44e38c1fdb8f9170800000000000000
+      internalID: 8187416437955224653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 3225
+        width: 891
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7d7e172d9d048b0800000000000000
+      internalID: -5169892874343950361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_6
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 3192
+        width: 865
+        height: 757
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958845286b01242b0800000000000000
+      internalID: -5601896610438805415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_7
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 3171
+        width: 834
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc11859e886547150800000000000000
+      internalID: 5869411360401002956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_8
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3143
+        width: 786
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cbb0f6f462f3c60800000000000000
+      internalID: 7799995202236300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_9
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 3120
+        width: 696
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bffa2f161d15110800000000000000
+      internalID: 1248008790371990369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_10
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2100
+        width: 651
+        height: 896
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69a9344a4f9cfb40800000000000000
+      internalID: 5475426388296706415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_11
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 2110
+        width: 708
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f595a4318a3bd5a0800000000000000
+      internalID: -6495533710943349260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_12
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 2145
+        width: 832
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5116af7931cd830800000000000000
+      internalID: 4097171304461964777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_13
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 2162
+        width: 867
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15585b118c066d830800000000000000
+      internalID: 4095567323546879313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_14
+      rect:
+        serializedVersion: 2
+        x: 4163
+        y: 2200
+        width: 897
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8494421df343b47f0800000000000000
+      internalID: -627350274391652024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1192
+        width: 895
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d1035ce9bd1cf00800000000000000
+      internalID: 1135430056033656081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_16
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1156
+        width: 869
+        height: 747
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98dc1f524936076b0800000000000000
+      internalID: -5300627273472160375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_17
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 1103
+        width: 816
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a8b74e320bc41d0800000000000000
+      internalID: -3365121153348957688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_18
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 1083
+        width: 701
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452c0baa1427743a0800000000000000
+      internalID: -6681245895818689964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_19
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 1075
+        width: 670
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d2fa0d621a84720800000000000000
+      internalID: 2830689553884327291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: milho 1_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 65
+        width: 748
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cc23f9353093af0800000000000000
+      internalID: -416297832866984947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      milho 1_0: 7243125727854063797
+      milho 1_1: 3140704503298267535
+      milho 1_10: 5475426388296706415
+      milho 1_11: -6495533710943349260
+      milho 1_12: 4097171304461964777
+      milho 1_13: 4095567323546879313
+      milho 1_14: -627350274391652024
+      milho 1_15: 1135430056033656081
+      milho 1_16: -5300627273472160375
+      milho 1_17: -3365121153348957688
+      milho 1_18: -6681245895818689964
+      milho 1_19: 2830689553884327291
+      milho 1_2: 5491756747926909786
+      milho 1_20: -416297832866984947
+      milho 1_3: -6779333080579345536
+      milho 1_4: 8187416437955224653
+      milho 1_5: -5169892874343950361
+      milho 1_6: -5601896610438805415
+      milho 1_7: 5869411360401002956
+      milho 1_8: 7799995202236300300
+      milho 1_9: 1248008790371990369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

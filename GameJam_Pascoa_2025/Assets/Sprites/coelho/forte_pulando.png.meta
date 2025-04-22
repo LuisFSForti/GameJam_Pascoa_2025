@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 737336e28fd32c94dad3b1bd7c9ffc15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6441564105470651364
+    second: forte_pulando_0
+  - first:
+      213: 5488179980870690451
+    second: forte_pulando_1
+  - first:
+      213: -3177463162166842347
+    second: forte_pulando_2
+  - first:
+      213: -6513634580299885243
+    second: forte_pulando_3
+  - first:
+      213: -7582673754358249105
+    second: forte_pulando_4
+  - first:
+      213: -5325771176914450079
+    second: forte_pulando_5
+  - first:
+      213: -2128578455764074862
+    second: forte_pulando_6
+  - first:
+      213: -7450526676010012848
+    second: forte_pulando_7
+  - first:
+      213: -355593783188935447
+    second: forte_pulando_8
+  - first:
+      213: -5873757743502868656
+    second: forte_pulando_9
+  - first:
+      213: -3666423646157182584
+    second: forte_pulando_10
+  - first:
+      213: 1297023113531419934
+    second: forte_pulando_11
+  - first:
+      213: -238631341475040469
+    second: forte_pulando_12
+  - first:
+      213: 2541367086022184133
+    second: forte_pulando_13
+  - first:
+      213: 65298669843203645
+    second: forte_pulando_14
+  - first:
+      213: 5358337449161130673
+    second: forte_pulando_15
+  - first:
+      213: -5765694434337617373
+    second: forte_pulando_16
+  - first:
+      213: -6897678265224610035
+    second: forte_pulando_17
+  - first:
+      213: 367641660836059081
+    second: forte_pulando_18
+  - first:
+      213: -2248217809821021201
+    second: forte_pulando_19
+  - first:
+      213: -7313806653298429979
+    second: forte_pulando_20
+  - first:
+      213: -9210286414869485689
+    second: forte_pulando_21
+  - first:
+      213: 5650354560939300665
+    second: forte_pulando_22
+  - first:
+      213: -8442581755258596467
+    second: forte_pulando_23
+  - first:
+      213: -8001687638286811699
+    second: forte_pulando_24
+  - first:
+      213: 5032347246558263722
+    second: forte_pulando_25
+  - first:
+      213: 200060898624813104
+    second: forte_pulando_26
+  - first:
+      213: 4565979147064662643
+    second: forte_pulando_27
+  - first:
+      213: 5625762874547817719
+    second: forte_pulando_28
+  - first:
+      213: -1784644399502231582
+    second: forte_pulando_29
+  - first:
+      213: -3766942727222756355
+    second: forte_pulando_30
+  - first:
+      213: -1459926527593901465
+    second: forte_pulando_31
+  - first:
+      213: 5357505541299918334
+    second: forte_pulando_32
+  - first:
+      213: -912590051445137922
+    second: forte_pulando_33
+  - first:
+      213: 5397601654979926920
+    second: forte_pulando_34
+  - first:
+      213: 6433985344086131936
+    second: forte_pulando_35
+  - first:
+      213: -4298100670017134195
+    second: forte_pulando_36
+  - first:
+      213: 4023030574749299030
+    second: forte_pulando_37
+  - first:
+      213: 1259295436141501962
+    second: forte_pulando_38
+  - first:
+      213: 5429516070185054761
+    second: forte_pulando_39
+  - first:
+      213: -1742484299358830868
+    second: forte_pulando_40
+  - first:
+      213: -77573862942121948
+    second: forte_pulando_41
+  - first:
+      213: -1309800069201603917
+    second: forte_pulando_42
+  - first:
+      213: -8635400449472094549
+    second: forte_pulando_43
+  - first:
+      213: -3407442992451925993
+    second: forte_pulando_44
+  - first:
+      213: 3499086511265826512
+    second: forte_pulando_45
+  - first:
+      213: -7403272531757615451
+    second: forte_pulando_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: forte_pulando_0
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 8220
+        width: 1560
+        height: 1884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb2c70dc68056950800000000000000
+      internalID: 6441564105470651364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_1
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 8220
+        width: 1560
+        height: 1884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396253f6d9ee92c40800000000000000
+      internalID: 5488179980870690451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_2
+      rect:
+        serializedVersion: 2
+        x: 4479
+        y: 8248
+        width: 1467
+        height: 1946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ce724c61267e3d0800000000000000
+      internalID: -3177463162166842347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_3
+      rect:
+        serializedVersion: 2
+        x: 6527
+        y: 8248
+        width: 1467
+        height: 1946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54556842cdbea95a0800000000000000
+      internalID: -6513634580299885243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_4
+      rect:
+        serializedVersion: 2
+        x: 8561
+        y: 8328
+        width: 1472
+        height: 1901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f698cc7256ee4c690800000000000000
+      internalID: -7582673754358249105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_5
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 6280
+        width: 1472
+        height: 1901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169000de45f0716b0800000000000000
+      internalID: -5325771176914450079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_6
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 6235
+        width: 1486
+        height: 1943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ef1a31c25c572e0800000000000000
+      internalID: -2128578455764074862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_7
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 6235
+        width: 1486
+        height: 1943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fe9d676796a9890800000000000000
+      internalID: -7450526676010012848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_8
+      rect:
+        serializedVersion: 2
+        x: 6524
+        y: 6233
+        width: 1479
+        height: 1939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecafa4965da01bf0800000000000000
+      internalID: -355593783188935447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_9
+      rect:
+        serializedVersion: 2
+        x: 8572
+        y: 6233
+        width: 1479
+        height: 1939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fbfc9e3783c7ea0800000000000000
+      internalID: -5873757743502868656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_10
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 4131
+        width: 1476
+        height: 1999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88965be8e1f3e1dc0800000000000000
+      internalID: -3666423646157182584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_11
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 4131
+        width: 1476
+        height: 1999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1de28b56a3fff110800000000000000
+      internalID: 1297023113531419934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_12
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 4106
+        width: 1352
+        height: 2038
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23fa1b2f0630bcf0800000000000000
+      internalID: -238631341475040469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_13
+      rect:
+        serializedVersion: 2
+        x: 6644
+        y: 4106
+        width: 1352
+        height: 2038
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccc83666efb44320800000000000000
+      internalID: 2541367086022184133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_14
+      rect:
+        serializedVersion: 2
+        x: 8440
+        y: 4878
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d364f445bccf7e000800000000000000
+      internalID: 65298669843203645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_15
+      rect:
+        serializedVersion: 2
+        x: 8659
+        y: 4095
+        width: 1384
+        height: 2050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b20ce33583ac5a40800000000000000
+      internalID: 5358337449161130673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_16
+      rect:
+        serializedVersion: 2
+        x: 4391
+        y: 4754
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a0cddb5732cffa0800000000000000
+      internalID: -5765694434337617373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_17
+      rect:
+        serializedVersion: 2
+        x: 6439
+        y: 4754
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fba5ac9268640a0800000000000000
+      internalID: -6897678265224610035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_18
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 4604
+        width: 7
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c794c684202a1500800000000000000
+      internalID: 367641660836059081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_19
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 4604
+        width: 7
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb49e340d9bcc0e0800000000000000
+      internalID: -2248217809821021201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_20
+      rect:
+        serializedVersion: 2
+        x: 8461
+        y: 4653
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef224a5993208a90800000000000000
+      internalID: -7313806653298429979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_21
+      rect:
+        serializedVersion: 2
+        x: 4446
+        y: 4537
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787291acd4d7e2080800000000000000
+      internalID: -9210286414869485689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_22
+      rect:
+        serializedVersion: 2
+        x: 6494
+        y: 4537
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9379bcb49871a6e40800000000000000
+      internalID: 5650354560939300665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_23
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2047
+        width: 1384
+        height: 2050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d831e92df9ce5da80800000000000000
+      internalID: -8442581755258596467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_24
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 2057
+        width: 1521
+        height: 2011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdb74cdc7b44f090800000000000000
+      internalID: -8001687638286811699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_25
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 2057
+        width: 1521
+        height: 2011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa93581882d76d540800000000000000
+      internalID: 5032347246558263722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_26
+      rect:
+        serializedVersion: 2
+        x: 6464
+        y: 2057
+        width: 1521
+        height: 2011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0383afbc352c6c200800000000000000
+      internalID: 200060898624813104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_27
+      rect:
+        serializedVersion: 2
+        x: 8406
+        y: 3049
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a51a8b7dd9d5f30800000000000000
+      internalID: 4565979147064662643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_28
+      rect:
+        serializedVersion: 2
+        x: 8475
+        y: 2067
+        width: 1551
+        height: 1985
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcc0002789b21e40800000000000000
+      internalID: 5625762874547817719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_29
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 3001
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e77745cf5bab37e0800000000000000
+      internalID: -1784644399502231582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_30
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 3001
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb75a63c8129bbc0800000000000000
+      internalID: -3766942727222756355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_31
+      rect:
+        serializedVersion: 2
+        x: 6360
+        y: 3001
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7629894ee8c4dbbe0800000000000000
+      internalID: -1459926527593901465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_32
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2830
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef55e5f87eea95a40800000000000000
+      internalID: 5357505541299918334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_33
+      rect:
+        serializedVersion: 2
+        x: 8368
+        y: 2825
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd9e0eee24d553f0800000000000000
+      internalID: -912590051445137922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_34
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2775
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b93248b1228ea40800000000000000
+      internalID: 5397601654979926920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_35
+      rect:
+        serializedVersion: 2
+        x: 4288
+        y: 2775
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4c25ce49b1a4950800000000000000
+      internalID: 6433985344086131936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_36
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 2775
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81a2c286341a54c0800000000000000
+      internalID: -4298100670017134195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_37
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2605
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651b7782efca4d730800000000000000
+      internalID: 4023030574749299030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_38
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 19
+        width: 1551
+        height: 1985
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e1c72f68ae97110800000000000000
+      internalID: 1259295436141501962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_39
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 19
+        width: 1551
+        height: 1985
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922b7a95914895b40800000000000000
+      internalID: 5429516070185054761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_40
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 1063
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee750603c371d7e0800000000000000
+      internalID: -1742484299358830868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_41
+      rect:
+        serializedVersion: 2
+        x: 4335
+        y: 35
+        width: 1617
+        height: 1925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420ea7f8bf66ceef0800000000000000
+      internalID: -77573862942121948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_42
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1001
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2d474d6c7a2dde0800000000000000
+      internalID: -1309800069201603917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_43
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1001
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae97f32b05e82880800000000000000
+      internalID: -8635400449472094549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_44
+      rect:
+        serializedVersion: 2
+        x: 4257
+        y: 842
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718428ad6a456b0d0800000000000000
+      internalID: -3407442992451925993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_45
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 777
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d64c5e94a04f8030800000000000000
+      internalID: 3499086511265826512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forte_pulando_46
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 777
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a63e294bda424990800000000000000
+      internalID: -7403272531757615451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      forte_pulando_0: 6441564105470651364
+      forte_pulando_1: 5488179980870690451
+      forte_pulando_10: -3666423646157182584
+      forte_pulando_11: 1297023113531419934
+      forte_pulando_12: -238631341475040469
+      forte_pulando_13: 2541367086022184133
+      forte_pulando_14: 65298669843203645
+      forte_pulando_15: 5358337449161130673
+      forte_pulando_16: -5765694434337617373
+      forte_pulando_17: -6897678265224610035
+      forte_pulando_18: 367641660836059081
+      forte_pulando_19: -2248217809821021201
+      forte_pulando_2: -3177463162166842347
+      forte_pulando_20: -7313806653298429979
+      forte_pulando_21: -9210286414869485689
+      forte_pulando_22: 5650354560939300665
+      forte_pulando_23: -8442581755258596467
+      forte_pulando_24: -8001687638286811699
+      forte_pulando_25: 5032347246558263722
+      forte_pulando_26: 200060898624813104
+      forte_pulando_27: 4565979147064662643
+      forte_pulando_28: 5625762874547817719
+      forte_pulando_29: -1784644399502231582
+      forte_pulando_3: -6513634580299885243
+      forte_pulando_30: -3766942727222756355
+      forte_pulando_31: -1459926527593901465
+      forte_pulando_32: 5357505541299918334
+      forte_pulando_33: -912590051445137922
+      forte_pulando_34: 5397601654979926920
+      forte_pulando_35: 6433985344086131936
+      forte_pulando_36: -4298100670017134195
+      forte_pulando_37: 4023030574749299030
+      forte_pulando_38: 1259295436141501962
+      forte_pulando_39: 5429516070185054761
+      forte_pulando_4: -7582673754358249105
+      forte_pulando_40: -1742484299358830868
+      forte_pulando_41: -77573862942121948
+      forte_pulando_42: -1309800069201603917
+      forte_pulando_43: -8635400449472094549
+      forte_pulando_44: -3407442992451925993
+      forte_pulando_45: 3499086511265826512
+      forte_pulando_46: -7403272531757615451
+      forte_pulando_5: -5325771176914450079
+      forte_pulando_6: -2128578455764074862
+      forte_pulando_7: -7450526676010012848
+      forte_pulando_8: -355593783188935447
+      forte_pulando_9: -5873757743502868656
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -174,6 +174,37 @@ Transform:
   - {fileID: 8437197413619893820}
   m_Father: {fileID: 5042509506644714377}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8369142016791813881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1019559511235844458}
+  m_Layer: 0
+  m_Name: Imagens
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1019559511235844458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8369142016791813881}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 28.258757, y: 0.53184444, z: 0.8265451}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5042509506644714377}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8926648845561610221
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,6 +236,7 @@ Transform:
   m_Children:
   - {fileID: 6612244946943247268}
   - {fileID: 8612052185356609364}
+  - {fileID: 1019559511235844458}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &267253343950999411
@@ -3230,9 +3262,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chao
       objectReference: {fileID: 0}
+    - target: {fileID: 6475320009315676519, guid: 56b91c784cb882d48963b4d7c614b608, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7498970142656158779, guid: 56b91c784cb882d48963b4d7c614b608, type: 3}
       propertyPath: m_LocalScale.x
-      value: 23.119003
+      value: 23.119001
       objectReference: {fileID: 0}
     - target: {fileID: 7498970142656158779, guid: 56b91c784cb882d48963b4d7c614b608, type: 3}
       propertyPath: m_LocalScale.y

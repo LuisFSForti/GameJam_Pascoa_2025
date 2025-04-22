@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2c1e8695d90021a46971920ca12e6c0e, type: 3}
+  m_Sprite: {fileID: -2265557584846841934, guid: 70d05394efd0e364d86d7011b89fbc8e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -105,10 +105,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _controladorSprite: {fileID: 2894471621446767369}
-  _imgNormal: {fileID: 21300000, guid: 2c1e8695d90021a46971920ca12e6c0e, type: 3}
-  _imgFaminto: {fileID: 21300000, guid: 3dca18d10d7aff54887925a23b56762a, type: 3}
-  _imgGordo: {fileID: 21300000, guid: eb076e187dea2684f8c56075a106c844, type: 3}
-  _imgBombado: {fileID: 21300000, guid: 37a2cc7947c95bc4284e5af8e64f89d4, type: 3}
+  _imgNormal: {fileID: -2265557584846841934, guid: 70d05394efd0e364d86d7011b89fbc8e, type: 3}
+  _imgFaminto: {fileID: -7594763084562226782, guid: 98608bb1b85944b4185ed70893f5f2ff, type: 3}
+  _imgGordo: {fileID: 308452617585346618, guid: 9c7a42b4eb6534643a0916df3659c5dc, type: 3}
+  _imgBombado: {fileID: 6493894935499244303, guid: 19246950ff1e6444aacb8efd5a6131d0, type: 3}
   _distChao: 0.1
   _coyoteTime: 0.1
   _tempoNoAr: 0
@@ -147,6 +147,10 @@ MonoBehaviour:
   - Abacaxi
   - Projetil
   _estaNoChao: 0
+  _fonte: {fileID: 0}
+  _comer: {fileID: 0}
+  _amassar: {fileID: 0}
+  _tomarDano: {fileID: 0}
 --- !u!114 &5637889534361427132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,13 +187,16 @@ MonoBehaviour:
   _vidaMax: 5
   _morreu: 0
   _controladorSprite: {fileID: 2894471621446767369}
-  _imgMorto: {fileID: 21300000, guid: 287c1d94899ad7a4fa07ad3e42cfd8dc, type: 3}
+  _imgMorto: {fileID: 21300000, guid: a84a3046f3c202b4cb72ed13d7841cbb, type: 3}
   _corpo: {fileID: 8213640394860577735}
   _controladorMovimentacao: {fileID: 8738539456479616063}
   _controladorFome: {fileID: 5637889534361427132}
   _tempoMorrer: 2
   _pauseMenu: {fileID: 0}
   _textoVidas: {fileID: 0}
+  _musicaFundo: {fileID: 0}
+  _fonte: {fileID: 0}
+  _choro: {fileID: 0}
 --- !u!70 &8552402315355421249
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

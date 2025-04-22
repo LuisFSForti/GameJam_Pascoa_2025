@@ -243,7 +243,7 @@ public class CoelhoMovimentacao : MonoBehaviour
                 break;
 
             case 'B':
-                transform.localScale = new Vector3(2, 1.5f, 0);
+                transform.localScale = new Vector3(2, 2, 0);
                 img = _imgBombado;
                 break;
 
