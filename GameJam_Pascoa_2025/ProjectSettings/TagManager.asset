@@ -42,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background
+    uniqueID: 1078311423
+    locked: 0
   - name: Fundo
     uniqueID: 929783551
     locked: 0
