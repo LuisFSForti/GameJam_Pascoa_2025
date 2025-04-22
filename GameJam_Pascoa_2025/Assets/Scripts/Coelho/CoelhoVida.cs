@@ -22,6 +22,10 @@ public class CoelhoVida : MonoBehaviour
     [Header("UI")]
     [SerializeField] private TMP_Text _textoVidas;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource _musicaFundo, _fonte;
+    [SerializeField] private AudioClip _choro;
+
 
     //Para alterar a vida do jogador
     public void MudarVida(int valor)
@@ -42,7 +46,6 @@ public class CoelhoVida : MonoBehaviour
 
     private void Morreu()
     {
-        _morreu = 1;
         _corpo.linearVelocityX = 0;
 
         _controladorSprite.sprite = _imgMorto;
@@ -51,11 +54,22 @@ public class CoelhoVida : MonoBehaviour
         _controladorFome.enabled = false;
         _controladorMovimentacao.enabled = false;
 
-        StartCoroutine(EsperarAnimacao());
+        if (_morreu == 0)
+            StartCoroutine(EsperarAnimacao());
+
+        _morreu = 1;
     }
 
     private IEnumerator EsperarAnimacao()
     {
+        _musicaFundo.Stop();
+
+        yield return new WaitForEndOfFrame();
+
+        _fonte.Stop();
+        _fonte.clip = _choro;
+        _fonte.Play();
+
         yield return new WaitForSeconds(_tempoMorrer);
         _pauseMenu.Pausar();
     }

@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Main_Menu.unity
     guid: ff96100ffb1684c4e913156e2e9cb2f6
   - enabled: 1
-    path: Assets/Scenes/Sessao_introdutoria.unity
-    guid: a1bff00264d5c37499ba29dc8428ddc8
+    path: Assets/Scenes/Fases/FaseCompleta.unity
+    guid: 8bf060e9e71120949b7de4b954d3dc97
+  - enabled: 1
+    path: Assets/Scenes/CenaVitoria.unity
+    guid: 8f05cdd87a8bdf046af84e5a7a1279de
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: c6b51949ee9b547489f5994f7a8fd4be, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

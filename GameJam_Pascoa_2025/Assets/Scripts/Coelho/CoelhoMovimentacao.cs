@@ -40,6 +40,10 @@ public class CoelhoMovimentacao : MonoBehaviour
     [SerializeField] private List<string> _tagCausadorasDeDano, _tagsCausadorasDeDanoIndestrutivies; //N�o existe uma classe pr�-pronta pra tratar as tags
     [SerializeField] private bool _estaNoChao;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource _fonte;
+    [SerializeField] private AudioClip _comer, _amassar, _tomarDano;
+
     //Quando colidir com um objeto com collider do tipo trigger
     /*
      In Unity, a trigger is a specialized collider that detects when other colliders enter, 
@@ -49,6 +53,9 @@ public class CoelhoMovimentacao : MonoBehaviour
      */
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (_controladorVida.getEstadoVida() == 1)
+            return;
+
         //Se for uma espinafre
         if (collision.gameObject.tag == "Espinafre")
         {
@@ -57,7 +64,11 @@ public class CoelhoMovimentacao : MonoBehaviour
 
             //Para o jogador e o paraliza para comer
             _corpo.linearVelocity = Vector2.zero;
-            _estaParalizado = _tempoComer;
+            _estaParalizado = _comer.length;
+
+            _fonte.Stop();
+            _fonte.clip = _comer;
+            _fonte.Play();
 
             //Destroi a espinafre
             Destroy(collision.gameObject);
@@ -76,12 +87,19 @@ public class CoelhoMovimentacao : MonoBehaviour
                 //Perde vida
                 _controladorVida.MudarVida(-1);
 
+                _fonte.Stop();
+                _fonte.clip = _tomarDano;
+                _fonte.Play();
+
                 //Sai da fun��o
                 return;
             }
             else
             {
-                
+                _fonte.Stop();
+                _fonte.clip = _amassar;
+                _fonte.Play();
+
                 Destroy(collision.gameObject);
             }
             
@@ -91,6 +109,9 @@ public class CoelhoMovimentacao : MonoBehaviour
     //Quando colidir com um objeto com collider
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (_controladorVida.getEstadoVida() == 1)
+            return;
+
         //Se for algum objeto que cause dano
         if(_tagCausadorasDeDano.Contains(collision.collider.tag))
         {
@@ -109,8 +130,12 @@ public class CoelhoMovimentacao : MonoBehaviour
                         _controladorFome.Comer(0.2f, 'G');
 
                         //Paraliza o jogador por um curto intervalo
-                        _estaParalizado = _tempoComer / 3;
+                        _estaParalizado = _comer.length;
                         _corpo.linearVelocity = Vector2.zero;
+
+                        _fonte.Stop();
+                        _fonte.clip = _comer;
+                        _fonte.Play();
 
                         //Sai da fun��o
                         return;
@@ -120,6 +145,10 @@ public class CoelhoMovimentacao : MonoBehaviour
                     case 'B':
                         //Destr�i o container do objeto
                         Destroy(collision.collider.gameObject.transform.parent.gameObject);
+
+                        _fonte.Stop();
+                        _fonte.clip = _amassar;
+                        _fonte.Play();
 
                         //Sai da fun��o
                         return;
@@ -138,6 +167,10 @@ public class CoelhoMovimentacao : MonoBehaviour
                     //Destr�i o container do objeto
                     Destroy(collision.collider.gameObject.transform.parent.gameObject);
 
+                    _fonte.Stop();
+                    _fonte.clip = _amassar;
+                    _fonte.Play();
+
                     //Sai da fun��o
                     return;
                 }
@@ -154,6 +187,10 @@ public class CoelhoMovimentacao : MonoBehaviour
 
             //Perde vida
             _controladorVida.MudarVida(-1);
+
+            _fonte.Stop();
+            _fonte.clip = _tomarDano;
+            _fonte.Play();
 
             //Sai da fun��o
             return;
@@ -172,6 +209,10 @@ public class CoelhoMovimentacao : MonoBehaviour
                 //Se sim, desacelera o jogador e destr�i a estrutura
                 _corpo.linearVelocity /= _desaceleracaoDestruicao;
                 Destroy(collision.collider.gameObject);
+
+                _fonte.Stop();
+                _fonte.clip = _amassar;
+                _fonte.Play();
             }
         }
     }
@@ -183,7 +224,10 @@ public class CoelhoMovimentacao : MonoBehaviour
 
     void Update()
     {
-        if(transform.position.y <= _yMorte)
+        if (_controladorVida.getEstadoVida() == 1)
+            return;
+
+        if (transform.position.y <= _yMorte)
         {
             _controladorVida.MudarVida(-10000000);
             return;
@@ -240,7 +284,11 @@ public class CoelhoMovimentacao : MonoBehaviour
 
             //Paraliza o coelho
             _corpo.linearVelocity = Vector2.zero;
-            _estaParalizado = _tempoComer;
+            _estaParalizado = _comer.length;
+
+            _fonte.Stop();
+            _fonte.clip = _comer;
+            _fonte.Play();
 
             //Sai da fun��o
             return;

@@ -84,7 +84,7 @@ public class BeterrabaController : MonoBehaviour
         //========================================= Explosao ====================================
 
         //se o tempo de explodir acabar ou chegar perto do player, a baterraba explode
-        if (_tempoExplodir <= 0f && _estaPerseguindo == true || _distance <= 1.1f)
+        if (_tempoExplodir <= 0f && _estaPerseguindo == true || _distance <= 1.3f)
         {
             GameObject explosao = Instantiate(_prefabExplosao);
             explosao.transform.position = transform.position;

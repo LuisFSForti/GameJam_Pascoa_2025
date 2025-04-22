@@ -9,8 +9,12 @@ public class PauseMenu : MonoBehaviour
     [Header("Jogador")]
     [SerializeField] private CoelhoVida _controladorVida;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource _musicaFundo;
+
     public void Pausar()
     {
+        _musicaFundo.Pause();
         Time.timeScale = 0;
         _pauseMenu.SetActive(true);
     }
@@ -19,6 +23,7 @@ public class PauseMenu : MonoBehaviour
     {
         if(_controladorVida.getEstadoVida() != 1)
         {
+            _musicaFundo.Play();
             Time.timeScale = 1;
             _pauseMenu.SetActive(false);
         }
